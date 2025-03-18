@@ -1,0 +1,910 @@
+19:24:28.389 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Using properties file in the given path
+19:24:28.907 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Using properties file found in user home Diffblue directory: /Users/amishra/.diffblue/telemetry.properties
+19:24:28.908 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Loading properties from file: telemetry.properties
+19:24:28.908 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Property telemetry.external.environment has value production
+19:24:28.909 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Property telemetry.id has value 82424d65-7f68-4d9d-b815-ebe214ad4adf
+19:24:28.911 [DEBUG] [Preparing][main][com.diffblue.cover.commons.configuration.Environment] Property telemetry.id has value 82424d65-7f68-4d9d-b815-ebe214ad4adf
+19:24:28.912 [DEBUG] [Preparing][main][com.diffblue.cover.d.a] Checking connectivity of telemetry (mixpanel) to uri: https://api-eu.mixpanel.com
+19:24:29.101 [DEBUG] [Preparing][main][com.diffblue.cover.d.a] Telemetry (mixpanel) connectivity response code: 404
+19:24:29.230 [DEBUG] [Preparing][main][com.diffblue.cover.ui.controller.ag] Client heap size: 8192 MB
+19:24:29.239 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.r] Diffblue Cover 2025.02.02-08b2a5a-licensed
+19:24:29.240 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.r] Running: dcover create --keep-partial-tests --coverage-reports
+19:24:29.240 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.ai] 
+19:24:29.240 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.ai] Command: create
+19:24:29.241 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.ai] Create tests for the specified package/class/method.
+19:24:29.241 [INFO]  [Preparing][main][com.diffblue.cover.ui.controller.ai] 
+19:24:31.637 [DEBUG] [Checking][main][com.diffblue.cover.r.b.h] initializeManager for Offline
+19:24:31.835 [DEBUG] [Checking][main][com.diffblue.cover.r.b.d] Checking licence edition
+19:24:31.922 [DEBUG] [Checking][main][com.diffblue.cover.r.b.c] Licence label to match: Enterprise Edition
+19:24:31.922 [DEBUG] [Checking][main][com.diffblue.cover.r.b.h] checkLicense for Offline
+19:24:32.466 [DEBUG] [Checking][main][com.diffblue.cover.o.a.f] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yaml exists...
+19:24:32.466 [DEBUG] [Checking][main][com.diffblue.cover.o.a.f] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yml exists...
+19:24:32.493 [DEBUG] [Checking][main][com.diffblue.cover.o.a.d] Maven home found: /opt/homebrew/Cellar/maven/3.9.9
+19:24:32.496 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.d.c] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+19:24:32.498 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.d.c] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-stateless-bean && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+19:24:32.952 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] Standard output of build tool (Maven)
+19:24:32.952 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+19:24:32.952 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+19:24:32.952 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Java version: 17.0.14, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home
+19:24:32.953 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Default locale: en_GB, platform encoding: UTF-8
+19:24:32.953 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > OS name: "mac os x", version: "15.3.2", arch: "aarch64", family: "mac"
+19:24:32.955 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.f] Using CUSTOMISABLE Build System Implementation
+19:24:33.055 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yaml exists...
+19:24:33.055 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yml exists...
+19:24:33.055 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:24:33.059 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Build execution request for Info Phase
+19:24:33.062 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:24:33.077 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:24:33.090 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+19:24:34.001 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Scanning for projects...
+19:24:34.049 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:34.049 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+19:24:34.051 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:34.051 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:24:34.051 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:24:34.051 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]   from pom.xml
+19:24:34.051 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:24:34.369 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:34.370 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:24:34.537 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:24:34.538 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:34.538 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:24:34.682 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Recompiling the module because of changed source code.
+19:24:34.695 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Compiling 3 source files with javac [debug release 17] to target/classes
+19:24:34.993 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:34.994 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:24:34.995 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:24:34.997 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:34.997 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:24:35.004 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Recompiling the module because of changed dependency.
+19:24:35.010 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:35.010 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:24:35.125 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Tests are skipped.
+19:24:35.127 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:35.127 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- jar:3.4.2:jar (default-jar) @ java-ee-stateless-bean ---
+19:24:35.398 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building jar: /Users/amishra/Developer/demo-java-ee-stateless-bean/target/java-ee-stateless-bean-1.0-SNAPSHOT.jar
+19:24:35.422 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:35.422 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-stateless-bean ---
+19:24:35.478 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/pom.xml to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.pom
+19:24:35.491 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/target/java-ee-stateless-bean-1.0-SNAPSHOT.jar to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.jar
+19:24:35.553 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:35.554 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] BUILD SUCCESS
+19:24:35.554 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:35.554 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Total time:  1.549 s (Wall Clock)
+19:24:35.554 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Finished at: 2025-03-18T19:24:35Z
+19:24:35.554 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:35.598 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Processing rule com.diffblue.cover.o.a.d took 3109ms
+19:24:35.599 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Operating System: Mac OS X aarch64 15.3.2
+19:24:35.599 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default charset: UTF-8
+19:24:35.600 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default locale: en_GB
+19:24:35.600 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default time zone: Europe/London
+19:24:35.604 [DEBUG] [Checking][main][com.diffblue.cover.o.a.w] Java home guessed from System property: /opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home
+19:24:35.607 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Inference engine finished in 3149ms
+19:24:35.609 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] Discovered modules:
+19:24:35.609 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] - com.diffblue.demo:java-ee-stateless-bean
+19:24:35.609 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] 
+19:24:35.612 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] 
+19:24:35.612 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] [1/1] Creating tests for module: com.diffblue.demo:java-ee-stateless-bean
+19:24:35.612 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] =========================================================================
+19:24:35.612 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.z] 
+19:24:35.612 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detecting environment:
+19:24:35.612 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] ----------------------
+19:24:35.648 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected Java version 17.0.14
+19:24:35.649 [DEBUG] [Checking][main][com.diffblue.cover.o.a.f] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yaml exists...
+19:24:35.649 [DEBUG] [Checking][main][com.diffblue.cover.o.a.f] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yml exists...
+19:24:35.649 [DEBUG] [Checking][main][com.diffblue.cover.o.a.d] Maven home found: /opt/homebrew/Cellar/maven/3.9.9
+19:24:35.649 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.d.c] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+19:24:35.650 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.d.c] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-stateless-bean && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+19:24:36.125 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] Standard output of build tool (Maven)
+19:24:36.125 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+19:24:36.125 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+19:24:36.125 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Java version: 17.0.14, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home
+19:24:36.125 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > Default locale: en_GB, platform encoding: UTF-8
+19:24:36.125 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.internal.c.a] > OS name: "mac os x", version: "15.3.2", arch: "aarch64", family: "mac"
+19:24:36.125 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.f] Using CUSTOMISABLE Build System Implementation
+19:24:36.126 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yaml exists...
+19:24:36.126 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yml exists...
+19:24:36.126 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:24:36.126 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Build execution request for Info Phase
+19:24:36.126 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:24:36.151 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:24:36.155 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+19:24:37.070 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Scanning for projects...
+19:24:37.116 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:37.116 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+19:24:37.119 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:37.119 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:24:37.119 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:24:37.119 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]   from pom.xml
+19:24:37.119 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:24:37.443 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:37.443 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:24:37.624 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:24:37.625 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:37.626 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:24:37.814 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Nothing to compile - all classes are up to date.
+19:24:37.816 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:37.816 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:24:37.817 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:24:37.818 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:37.818 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:24:37.828 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Nothing to compile - all classes are up to date.
+19:24:37.829 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:37.829 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:24:37.978 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Tests are skipped.
+19:24:37.979 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:37.979 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- jar:3.4.2:jar (default-jar) @ java-ee-stateless-bean ---
+19:24:38.226 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:38.226 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-stateless-bean ---
+19:24:38.274 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/pom.xml to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.pom
+19:24:38.292 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/target/java-ee-stateless-bean-1.0-SNAPSHOT.jar to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.jar
+19:24:38.354 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:38.354 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] BUILD SUCCESS
+19:24:38.354 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:38.354 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Total time:  1.294 s (Wall Clock)
+19:24:38.354 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Finished at: 2025-03-18T19:24:38Z
+19:24:38.354 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:38.386 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected build system: Maven 3.9.9
+19:24:38.386 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Processing rule com.diffblue.cover.o.a.d took 2736ms
+19:24:38.386 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Operating System: Mac OS X aarch64 15.3.2
+19:24:38.386 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default charset: UTF-8
+19:24:38.386 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default locale: en_GB
+19:24:38.386 [INFO]  [Checking][main][com.diffblue.cover.o.a.ar] Default time zone: Europe/London
+19:24:38.386 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Selected build system: Maven
+19:24:38.388 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Selected classpath from build system maven
+19:24:38.389 [INFO]  [Checking][main][com.diffblue.cover.o.c.b] Expanded classpath: 
+/Users/amishra/Developer/demo-java-ee-stateless-bean/target/test-classes (test build path)
+/Users/amishra/Developer/demo-java-ee-stateless-bean/target/classes (code under test)
+/Users/amishra/.m2/repository/com/diffblue/cover/cover-annotations/1.3.0/cover-annotations-1.3.0.jar
+/Users/amishra/.m2/repository/jakarta/ejb/jakarta.ejb-api/4.0.1/jakarta.ejb-api-4.0.1.jar
+/Users/amishra/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.0/jakarta.transaction-api-2.0.0.jar
+/Users/amishra/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+/Users/amishra/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar
+/Users/amishra/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar
+/Users/amishra/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar
+/Users/amishra/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+/Users/amishra/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.0/junit-jupiter-engine-5.11.0.jar
+/Users/amishra/.m2/repository/org/junit/platform/junit-platform-engine/1.11.0/junit-platform-engine-1.11.0.jar
+/Users/amishra/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar
+/Users/amishra/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy/1.15.4/byte-buddy-1.15.4.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.4/byte-buddy-agent-1.15.4.jar
+/Users/amishra/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar
+19:24:38.421 [DEBUG] [Checking][main][com.diffblue.cover.commons.dependency.a.b] Detected JUnit Jupiter version 5.11.0 (via jar:file:/Users/amishra/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar!/org/junit/jupiter/api/Assertions.class)
+19:24:38.423 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected test framework: JUnit Jupiter 5.11.0
+19:24:38.429 [DEBUG] [Checking][main][com.diffblue.cover.commons.dependency.a.b] Detected JUnit Jupiter version 5.11.0 (via jar:file:/Users/amishra/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.0/junit-jupiter-engine-5.11.0.jar!/org/junit/jupiter/engine/JupiterTestEngine.class)
+19:24:38.430 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected JUnit Jupiter version 5.11.0
+19:24:38.440 [DEBUG] [Checking][main][com.diffblue.cover.commons.dependency.a.b] Detected JUnit Jupiter Params version 5.11.0 (via jar:file:/Users/amishra/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar!/org/junit/jupiter/params/ParameterizedTest.class)
+19:24:38.441 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected JUnit Jupiter Params version 5.11.0
+19:24:38.465 [DEBUG] [Checking][main][com.diffblue.cover.commons.dependency.a.b] Detected Mockito version 5.14.2 (via jar:file:/Users/amishra/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar!/org/mockito/Mockito.class)
+19:24:38.466 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected Mockito version 5.14.2
+19:24:38.836 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Processing rule com.diffblue.cover.o.a.ag took 370ms
+19:24:38.858 [DEBUG] [Checking][main][com.diffblue.cover.commons.dependency.a.b] Detected Mockito version 5.14.2 (via jar:file:/Users/amishra/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar!/org/mockito/Mockito.class)
+19:24:38.876 [DEBUG] [Checking][main][com.diffblue.cover.commons.dependency.a.b] Detected Mockito version 5.14.2 (via jar:file:/Users/amishra/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar!/org/mockito/Mockito.class)
+19:24:38.878 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Indexing...
+19:24:39.088 [DEBUG] [Checking][main][com.diffblue.cover.o.a.ay] the build system has test sources configured
+19:24:39.089 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Selected test output directory: /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/java
+19:24:39.094 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yaml exists...
+19:24:39.094 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yml exists...
+19:24:39.094 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:24:39.095 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Build execution request for Test Phase
+19:24:39.096 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:24:39.105 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:24:39.118 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=DummyJupiterDiffblueTest"
+19:24:40.047 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Scanning for projects...
+19:24:40.096 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:40.096 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:24:40.096 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:24:40.096 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]   from pom.xml
+19:24:40.096 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:24:40.411 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:40.411 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:24:40.554 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:24:40.555 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:40.555 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:24:40.709 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Nothing to compile - all classes are up to date.
+19:24:40.711 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:40.711 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:24:40.712 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:24:40.713 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:40.713 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:24:40.724 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Recompiling the module because of changed source code.
+19:24:40.729 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Compiling 1 source file with javac [debug release 17] to target/test-classes
+19:24:41.100 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:41.100 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:24:41.214 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+19:24:41.258 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:41.258 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] -------------------------------------------------------
+19:24:41.258 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]  T E S T S
+19:24:41.258 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] -------------------------------------------------------
+19:24:41.598 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Running DummyJupiterDiffblueTest
+19:24:41.630 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in DummyJupiterDiffblueTest
+19:24:41.641 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:41.642 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Results:
+19:24:41.642 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:41.642 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+19:24:41.642 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:41.684 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:41.684 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] BUILD SUCCESS
+19:24:41.684 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:41.685 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Total time:  1.647 s
+19:24:41.685 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Finished at: 2025-03-18T19:24:41Z
+19:24:41.685 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:41.713 [DEBUG] [Checking][main][com.diffblue.cover.o.e] Purging written files... [/Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/java/DummyJupiterDiffblueTest.java]
+19:24:41.716 [DEBUG] [Checking][main][com.diffblue.cover.o.e] Attempting to find class files [DummyJupiterDiffblueTest.class]
+19:24:41.717 [DEBUG] [Checking][main][com.diffblue.cover.o.e] Found /Users/amishra/Developer/demo-java-ee-stateless-bean/target/test-classes/DummyJupiterDiffblueTest.class, attempting deletion
+19:24:41.730 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Processing rule com.diffblue.cover.o.a.av took 2640ms
+19:24:41.730 [DEBUG] [Checking][main][com.diffblue.cover.o.c.o] JUnitJupiter5 is present
+19:24:41.730 [DEBUG] [Checking][main][com.diffblue.cover.o.c.o] JUnitJupiter5 is supported
+19:24:41.730 [DEBUG] [Checking][main][com.diffblue.cover.o.c.o] JUnit 5 is present and either it's not been specified by the user or it is the same as the version the user specified
+19:24:41.731 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Selected test framework: JUnit Jupiter
+19:24:41.755 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yaml exists...
+19:24:41.755 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yml exists...
+19:24:41.755 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:24:41.755 [DEBUG] [Checking][main][com.diffblue.cover.buildsystem.config.registry.Registry] Build execution request for Test Phase
+19:24:41.756 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:24:41.760 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:24:41.763 [INFO]  [Checking][main][com.diffblue.cover.buildsystem.config.a.a] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=DummyJUnitJupiterLauncherDiffblueTest447310388280910923"
+19:24:42.612 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Scanning for projects...
+19:24:42.659 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:42.659 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:24:42.659 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:24:42.659 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]   from pom.xml
+19:24:42.659 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:24:42.954 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:42.954 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:24:43.146 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:24:43.148 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:43.148 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:24:43.330 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Nothing to compile - all classes are up to date.
+19:24:43.331 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:43.331 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:24:43.332 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:24:43.333 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:43.334 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:24:43.348 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Recompiling the module because of changed source code.
+19:24:43.363 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Compiling 1 source file with javac [debug release 17] to target/test-classes
+19:24:43.778 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:43.778 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:24:43.933 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+19:24:44.027 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:44.027 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] -------------------------------------------------------
+19:24:44.027 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]  T E S T S
+19:24:44.027 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] -------------------------------------------------------
+19:24:44.405 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Running DummyJUnitJupiterLauncherDiffblueTest447310388280910923
+19:24:44.443 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in DummyJUnitJupiterLauncherDiffblueTest447310388280910923
+19:24:44.453 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:44.453 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Results:
+19:24:44.453 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:44.453 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+19:24:44.453 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:24:44.494 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:44.494 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] BUILD SUCCESS
+19:24:44.494 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:44.494 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Total time:  1.893 s
+19:24:44.495 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Finished at: 2025-03-18T19:24:44Z
+19:24:44.495 [INFO]  [Checking][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:24:44.537 [DEBUG] [Checking][main][com.diffblue.cover.o.e] Purging written files... [/Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/java/DummyJUnitJupiterLauncherDiffblueTest447310388280910923.java]
+19:24:44.544 [DEBUG] [Checking][main][com.diffblue.cover.o.e] Attempting to find class files [DummyJUnitJupiterLauncherDiffblueTest447310388280910923.class]
+19:24:44.544 [DEBUG] [Checking][main][com.diffblue.cover.o.e] Found /Users/amishra/Developer/demo-java-ee-stateless-bean/target/test-classes/DummyJUnitJupiterLauncherDiffblueTest447310388280910923.class, attempting deletion
+19:24:44.553 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Processing rule com.diffblue.cover.o.a.l took 2799ms
+19:24:44.871 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Processing rule com.diffblue.cover.o.a.an took 306ms
+19:24:44.894 [DEBUG] [Checking][main][com.diffblue.cover.o.a.w] Java home guessed from System property: /opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home
+19:24:44.895 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Detected JVM architecture: 64-Bit
+19:24:44.895 [DEBUG] [Checking][main][com.diffblue.cover.o.a.s] No jacoco-maven-plugin configuration detected, assuming we can generate coverage using version 0.8.11
+19:24:44.896 [DEBUG] [Checking][main][com.diffblue.cover.o.e] Purging written files... []
+19:24:44.896 [DEBUG] [Checking][main][com.diffblue.cover.o.e] Attempting to find class files []
+19:24:45.032 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Selected Java language compliance level: 17
+19:24:45.033 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Selected test validation: enabled
+19:24:45.045 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Prefixes for filtering classes/methods:
+19:24:45.045 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] - com.diffblue.demo
+19:24:45.045 [INFO]  [Checking][main][com.diffblue.cover.ui.controller.q] Gathering methods to test...
+19:24:45.483 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Processing rule com.diffblue.cover.ui.configuration.CliEntryPointsSelector took 450ms
+19:24:45.484 [DEBUG] [Checking][main][com.diffblue.cover.commons.l.c] Inference engine finished in 9836ms
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] 
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Environment summary for module: com.diffblue.demo:java-ee-stateless-bean
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] ------------------------------------------------------------------------
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Java version                   17.0.14                       SUCCESS        
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Build system                   Maven                         SUCCESS        
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Mocking Framework              Mockito 5.14.2                SUCCESS        
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Surefire version               3.3.0                         SUCCESS        
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Testing framework              JUnit Jupiter 5               SUCCESS        
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] JavaEE version                 Skipped                       -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Core                    Not Detected                  -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] JaCoCo plugin version          0.8.11                        SUCCESS        
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Launcher                       JUnit Jupiter                 SUCCESS        
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Quarkus                        Not Detected                  -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Test validation                Enabled                       SUCCESS        
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Hamcrest                       Not Detected                  -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Boot                    Skipped                       -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Boot Starter Webflux    Skipped                       -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Boot Test Autoconfigure Skipped                       -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Boot Test               Skipped                       -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Web                     Skipped                       -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Security Web            Skipped                       -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Spring Test                    Skipped                       -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Cover Annotations              Not Detected                  -----          
+19:24:45.492 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] 
+19:24:45.493 [INFO]  [Reporting][main][com.diffblue.cover.ui.f] Environment check status: SUCCESS
+19:24:45.740 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.l.a.e] Configuration:
+Module: 
+Configuration: 
+ features=[COVERAGE_REPORTS, TESTING_FRAMEWORK_JUNIT_JUPITER5, JUNIT_JUPITER_PARAMS, MOCKING, MOCKITO_SESSION, INCLUDE_SYSTEM_ENVIRONMENT_VARIABLES, INLINING, INLINE_ACT_INTO_ASSERT, INLINE_ARRANGE_INTO_ACT_ASSERT, INLINE_CHAINED_MEMBER_ACCESSES, INLINE_CONSTRUCTORS, INLINE_IMMEDIATE_VALUES, JOIN_SIMPLE_TESTS, SHOW_SECTION_COMMENTS, KEEP_NON_COMPILING_TESTS, KEEP_NONDETERMINISTIC_TESTS, KEEP_TESTS_WITHOUT_ASSERTIONS, KEEP_TESTS_WITH_VIOLATIONS, KEEP_THROWING_TESTS, REPORT, SANDBOXING, DESCRIPTIVE_TEST_NAMES, SPRING_TESTS_ENABLED, SPRING_BOOT_TESTS_ENABLED, VALIDATION, ANALYZER_SERVICE, VERIFICATION, HAS_METHOD_GROUP_ANNOTATION, TEST_TAGGING]
+ analyzerServiceIdleTimeout=PT2M
+ coverReportsBaseUrl=Optional.empty
+ environmentVariables={}
+ complianceLevel=17
+ fuzzingIterations=1000
+ jacocoCommandDiffblue=Optional.empty
+ jacocoCommandManual=Optional.empty
+ jacocoXmlTestReport=Optional.empty
+ jacocoXmlTestReportDiffblue=/Users/amishra/Developer/demo-java-ee-stateless-bean/.diffblue/reports/diffblue-tests-jacoco-report.xml
+ jacocoXmlTestReportManual=/Users/amishra/Developer/demo-java-ee-stateless-bean/.diffblue/reports/manual-tests-jacoco-report.xml
+ sandboxAllowedJavaNativeInterfacePrefixes=[]
+ mockingFramework=MOCKITO_5_0_0
+ mockClasses=[]
+ mockStaticClasses=[]
+ workingDirectory=/Users/amishra/Developer/demo-java-ee-stateless-bean
+ classpath=Classpath(17 full entries, 1 code under test entries, 1 test build entries)
+ warningsToSuppress=[]
+ perMethodTimeouts=Timeouts{softTimeout=PT20S, initialExecutionTimeout=PT20S, hardTimeout=PT1M, springStartupTimeout=PT4M}
+ reportFile=/Users/amishra/Developer/demo-java-ee-stateless-bean/.diffblue/reports/report.json
+ activeProfiles=[]
+ classScheme=${CLASS}DiffblueTest
+ methodScheme=test${INNER}${UNIT}${_}${GIVEN}${_}${WHEN}${_}${THEN}
+ springConfigurationClasses=[]
+ testOutputDirectory=/Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/java
+ validationCommand=Optional.empty
+ validationTimeout=PT30M
+ jacocoVersion=0.8.11
+ observerMethodSpecification=MethodSpecification[excludedPrefixes=[]]
+ excludeMethodSpecification=MethodSpecification[excludedPrefixes=[]]
+ analyzerServiceRestartFrequency=50
+
+19:24:45.744 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] Found 6 callable methods in 3 classes
+19:24:45.745 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] 
+19:24:45.745 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] Creating tests:
+19:24:45.745 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] ---------------
+19:24:45.747 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] 
+================================================================================
+= Starting analysis for class 'com.diffblue.demo.AdderImpl'
+================================================================================
+19:24:45.747 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] Filtering out non-testable methods...
+19:24:47.808 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] Filtering of methods complete. Creating analysis request
+19:24:47.808 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.service.c] Attempting to get service client, retry 1.
+19:24:47.822 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.service.c] Starting monitoring server.
+19:24:47.933 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.service.c] Monitoring server listening on localhost/127.0.0.1:57941
+19:24:48.039 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.service.c] Starting analyzer server process...
+19:24:48.039 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.service.c] Server command-line: /opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home/bin/java -XX:+IgnoreUnrecognizedVMOptions -Djdk.attach.allowAttachSelf=true -Djdk.jar.maxSignatureFileSize=100000000 -ea -javaagent:/usr/local/bin/diffblue/launcher-shared-jar.jar -Dlogback.configurationFile=/var/folders/p2/qfsg813s0h9b5mhb_8typkwm0000gp/T/diffblue/config/logback-remote-service.xml -Dcom.diffblue.springIsolationJar=/usr/local/bin/diffblue/cover-isolation-layer.jar -Dcover.jar.path=/usr/local/bin/diffblue/cover-service-analyzer.jar -Dcom.diffblue.assertionSuggestionJar=/usr/local/bin/diffblue/cover-service-analyzer.jar -Dcover.main.class=com.diffblue.cover.service.analyzer.Main -jar /usr/local/bin/diffblue/launcher-shared-jar.jar --service-lifespan 120 --monitoring-service-port 57941 --index-service-port 57941 --debug-log
+19:24:48.050 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.service.c] Server started. Waiting up to 300 seconds for a connection to be established...
+19:24:48.798 [DEBUG] [Creating][nullmain][com.diffblue.cover.service.analyzer.Main] Service heap size: 8192 MB
+19:24:48.886 [INFO]  [Creating][nullmain][com.diffblue.cover.service.a.a.b] Starting new remote monitor client
+19:24:49.462 [INFO]  [Creating][analyzer-service:main][com.diffblue.cover.service.a.a.b] Attempting to start remote server.
+19:24:49.469 [DEBUG] [Creating][analyzer-service:main][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:49.921 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.service.c] Expect analyzer service to be listening on port 57943.
+19:24:49.918 [INFO]  [Creating][analyzer-service:main][com.diffblue.cover.service.a.a.a] Server started, listening on localhost/127.0.0.1:57943
+19:24:49.924 [DEBUG] [Creating][analyzer-service:main][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:50.812 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:50.819 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.service.c] Started analyzer service and client retrieved.
+19:24:50.958 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:52.835 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:52.918 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a] Class information:
+19:24:52.921 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a]   Class annotations: @jakarta.ejb.Stateless(name="", description="", mappedName="")
+19:24:52.921 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a]   Fields: 
+19:24:52.922 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a]   Constructors: public com.diffblue.demo.AdderImpl()
+19:24:52.922 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a]   Methods: public int com.diffblue.demo.AdderImpl.add(int,int)
+19:24:52.925 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.cover.commons.configuration.Environment] Using properties file in the given path
+19:24:53.608 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:53.940 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:53.964 [DEBUG] [Creating][analyzer-service:TimedExecutor-5][com.diffblue.fuzztest.g.e] 
+================================================================================
+= Creating tests for 'com.diffblue.demo.AdderImpl.<init>:()V' using 'TrM (!sp, !fnm, df, !ris)'
+================================================================================
+19:24:53.966 [DEBUG] [Creating][analyzer-service:TimedExecutor-5][com.diffblue.fuzztest.g.e] 
+================================================================================
+= Trying DI configuration EmptyDependencyInjectionTirConfiguration for class 'com.diffblue.demo.AdderImpl', method '<init>', descriptor '()V'
+================================================================================
+19:24:53.978 [DEBUG] [Creating][analyzer-service:TimedExecutor-5][com.diffblue.cover.commons.dependency.a.b] Detected Mockito version 5.14.2 (via jar:file:/Users/amishra/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar!/org/mockito/Mockito.class)
+19:24:54.113 [DEBUG] [Creating][analyzer-service:TimedExecutor-5][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:54.134 [DEBUG] [Creating][analyzer-service:TimedExecutor-5][com.diffblue.fuzztest.g.e] Enabling descriptive test naming
+19:24:54.583 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] Created 1 partial tests via 'TrM (!sp, !fnm, df, !ris)' , here is the last one:
+19:24:54.993 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:55.097 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] == begin partial test ==
+19:24:55.097 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] Test:
+package com.diffblue.demo;
+
+import com.diffblue.cover.annotations.MethodsUnderTest;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Test;
+
+class AdderImplDiffblueTest {
+  /**
+   * Test new {@link AdderImpl} (default constructor).
+   * <p>
+   * Method under test: default or parameterless constructor of {@link AdderImpl}
+   */
+  @Test
+  @DisplayName("Test new AdderImpl (default constructor)")
+  @Tag("MaintainedByDiffblue")
+  @MethodsUnderTest({"void AdderImpl.<init>()"})
+  void testNewAdderImpl() {
+    // TODO: Diffblue Cover was only able to create a partial test for this method:
+    //   Reason: Missing observers.
+    //   Diffblue Cover was unable to create an assertion.
+    //   There are no fields that could be asserted on.
+
+    // Arrange and Act
+    new AdderImpl();
+  }
+}
+
+19:24:55.097 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] == end partial test ==
+19:24:55.206 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:55.230 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] in processAnalysisResult for com.diffblue.demo.AdderImpl.<init>:()V
+19:24:55.315 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:56.485 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.a.c] Adding changeSet to account as new: Optional[com.diffblue.demo.AdderImpl.<init>:()V]
+19:24:56.487 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:56.506 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:56.506 [DEBUG] [Creating][analyzer-service:TimedExecutor-13][com.diffblue.fuzztest.g.e] 
+================================================================================
+= Creating tests for 'com.diffblue.demo.AdderImpl.add:(II)I' using 'SiM (!sp, fnm, df, !ris)'
+================================================================================
+19:24:56.506 [DEBUG] [Creating][analyzer-service:TimedExecutor-13][com.diffblue.fuzztest.g.e] 
+================================================================================
+= Trying DI configuration EmptyDependencyInjectionTirConfiguration for class 'com.diffblue.demo.AdderImpl', method 'add', descriptor '(II)I'
+================================================================================
+19:24:56.507 [DEBUG] [Creating][analyzer-service:TimedExecutor-13][com.diffblue.cover.commons.dependency.a.b] Detected Mockito version 5.14.2 (via jar:file:/Users/amishra/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar!/org/mockito/Mockito.class)
+19:24:57.804 [DEBUG] [Creating][analyzer-service:TimedExecutor-13][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:58.064 [DEBUG] [Creating][analyzer-service:TimedExecutor-13][com.diffblue.fuzztest.b.f] Refinement loop done: 1 seeds, 4+0 new+accumulated tests, 4+0 tests+partial tests, 216/1000 its
+19:24:58.111 [DEBUG] [Creating][analyzer-service:TimedExecutor-13][com.diffblue.fuzztest.g.e] Enabling descriptive test naming
+19:24:58.136 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] Created 4+0 tests and partial tests via 'SiM (!sp, fnm, df, !ris)' SiM fallback 1/2, returning all 4
+19:24:58.207 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:58.213 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] in processAnalysisResult for com.diffblue.demo.AdderImpl.add:(II)I
+19:24:58.213 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.r.d] Finished with MethodGroup: <init>, countOfTests: 0, countOfMethodsTested: 0 TestGenerationAccount: a[countOfRemoved=0, countOfUnchanged=0, countOfUpdated=0, countOfNew=1]
+19:24:58.216 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [1/6] com.diffblue.demo.AdderImpl.<init>
+19:24:58.217 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [1/6]   Partial tests created: 1
+19:24:58.217 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [1/6]   Reasons for partial tests:
+19:24:58.217 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [1/6]   R002: Missing observers
+19:24:58.217 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [1/6]   (at least 1 line uncovered in this method)
+19:24:58.217 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [1/6]     Diffblue Cover was unable to create an assertion.
+19:24:58.217 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [1/6]     There are no fields that could be asserted on.
+19:24:58.217 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:58.385 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.a.c] Adding changeSet to account as new: Optional[com.diffblue.demo.AdderImpl.add:(II)I]
+19:24:58.400 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:58.535 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.a.c] Adding changeSet to account as new: Optional[com.diffblue.demo.AdderImpl.add:(II)I]
+19:24:58.547 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:58.643 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.a.c] Adding changeSet to account as new: Optional[com.diffblue.demo.AdderImpl.add:(II)I]
+19:24:58.655 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:58.752 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.a.c] Adding changeSet to account as new: Optional[com.diffblue.demo.AdderImpl.add:(II)I]
+19:24:58.766 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.r.d] Finished with MethodGroup: add, countOfTests: 4, countOfMethodsTested: 1 TestGenerationAccount: a[countOfRemoved=0, countOfUnchanged=0, countOfUpdated=0, countOfNew=5]
+19:24:58.765 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:58.766 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [2/6] com.diffblue.demo.AdderImpl.add
+19:24:58.766 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [2/6]   Tests created: 4
+19:24:58.771 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] [1/3] com.diffblue.demo.AdderImpl
+19:24:58.771 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] [1/3]   Tests created: 4
+19:24:58.771 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] [1/3]   (at least 1 line uncovered in this class)
+19:24:58.771 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] [1/3]   Partial tests created: 1
+19:24:58.772 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] 
+================================================================================
+= Starting analysis for class 'com.diffblue.demo.App'
+================================================================================
+19:24:58.772 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] Filtering out non-testable methods...
+19:24:58.842 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [3/6] com.diffblue.demo.App.main
+19:24:58.842 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [3/6]   T006: Main method
+19:24:58.842 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [3/6]   (at least 4 lines uncovered in this method)
+19:24:58.842 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [3/6]     It is difficult to assert on side effects of main methods in a unit test.
+19:24:58.842 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [3/6]     Refactor the main method. E.g. factor out its body into a separate,
+19:24:58.842 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [3/6]     accessible method that returns the results that should be asserted on.
+19:24:58.842 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [3/6]     See https://diff.blue/T006 for information on testing main methods.
+19:24:58.842 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] Filtering of methods complete. Creating analysis request
+19:24:58.842 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.service.c] Attempting to get service client, retry 1.
+19:24:58.863 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a] Class information:
+19:24:58.863 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a]   Fields: 
+19:24:58.863 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a]   Constructors: public com.diffblue.demo.App()
+19:24:58.864 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a]   Methods: public static void com.diffblue.demo.App.main(java.lang.String[]) throws java.lang.Exception
+19:24:58.876 [DEBUG] [Creating][analyzer-service:TimedExecutor-90][com.diffblue.fuzztest.g.e] 
+================================================================================
+= Creating tests for 'com.diffblue.demo.App.<init>:()V' using 'TrM (!sp, !fnm, df, !ris)'
+================================================================================
+19:24:58.876 [DEBUG] [Creating][analyzer-service:TimedExecutor-90][com.diffblue.fuzztest.g.e] 
+================================================================================
+= Trying DI configuration EmptyDependencyInjectionTirConfiguration for class 'com.diffblue.demo.App', method '<init>', descriptor '()V'
+================================================================================
+19:24:58.878 [DEBUG] [Creating][analyzer-service:TimedExecutor-90][com.diffblue.cover.commons.dependency.a.b] Detected Mockito version 5.14.2 (via jar:file:/Users/amishra/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar!/org/mockito/Mockito.class)
+19:24:59.014 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] in processAnalysisResult for com.diffblue.demo.App.<init>:()V
+19:24:59.016 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [4/6] com.diffblue.demo.App.<init>
+19:24:59.016 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [4/6]   T005: Trivial constructor
+19:24:59.016 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [4/6]   (at least 1 line uncovered in this method)
+19:24:59.016 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [4/6]     See https://diff.blue/T005
+19:24:59.024 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] [2/3] com.diffblue.demo.App
+19:24:59.024 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] [2/3]   Tests created: 0
+19:24:59.024 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] [2/3]   (at least 5 lines uncovered in this class)
+19:24:59.024 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] 
+================================================================================
+= Starting analysis for class 'com.diffblue.demo.Calculator'
+================================================================================
+19:24:59.024 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] Filtering out non-testable methods...
+19:24:59.024 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] Filtering of methods complete. Creating analysis request
+19:24:59.024 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.service.c] Attempting to get service client, retry 1.
+19:24:59.056 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a] Class information:
+19:24:59.056 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a]   Fields: private com.diffblue.demo.AdderImpl com.diffblue.demo.Calculator.adder
+19:24:59.056 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a]   Constructors: public com.diffblue.demo.Calculator()
+19:24:59.056 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.a]   Methods: public int com.diffblue.demo.Calculator.sumOf(int,int)
+19:24:59.066 [DEBUG] [Creating][analyzer-service:TimedExecutor-96][com.diffblue.fuzztest.g.e] 
+================================================================================
+= Creating tests for 'com.diffblue.demo.Calculator.<init>:()V' using 'TrM (!sp, !fnm, df, !ris)'
+================================================================================
+19:24:59.066 [DEBUG] [Creating][analyzer-service:TimedExecutor-96][com.diffblue.fuzztest.g.e] 
+================================================================================
+= Trying DI configuration EmptyDependencyInjectionTirConfiguration for class 'com.diffblue.demo.Calculator', method '<init>', descriptor '()V'
+================================================================================
+19:24:59.070 [DEBUG] [Creating][analyzer-service:TimedExecutor-96][com.diffblue.cover.commons.dependency.a.b] Detected Mockito version 5.14.2 (via jar:file:/Users/amishra/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar!/org/mockito/Mockito.class)
+19:24:59.084 [DEBUG] [Creating][analyzer-service:TimedExecutor-96][com.diffblue.fuzztest.g.e] Enabling descriptive test naming
+19:24:59.089 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] Created 1 partial tests via 'TrM (!sp, !fnm, df, !ris)' , here is the last one:
+19:24:59.097 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:59.109 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] == begin partial test ==
+19:24:59.109 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] Test:
+package com.diffblue.demo;
+
+import com.diffblue.cover.annotations.MethodsUnderTest;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Test;
+
+class CalculatorDiffblueTest {
+  /**
+   * Test new {@link Calculator} (default constructor).
+   * <p>
+   * Method under test: default or parameterless constructor of {@link Calculator}
+   */
+  @Test
+  @DisplayName("Test new Calculator (default constructor)")
+  @Tag("MaintainedByDiffblue")
+  @MethodsUnderTest({"void Calculator.<init>()"})
+  void testNewCalculator() {
+    // TODO: Diffblue Cover was only able to create a partial test for this method:
+    //   Reason: Missing observers.
+    //   Diffblue Cover was unable to create an assertion.
+    //   Add getters for the following fields or make them package-private:
+    //     Calculator.adder
+
+    // Arrange and Act
+    new Calculator();
+  }
+}
+
+19:24:59.109 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] == end partial test ==
+19:24:59.126 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] in processAnalysisResult for com.diffblue.demo.Calculator.<init>:()V
+19:24:59.126 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:59.215 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.a.c] Adding changeSet to account as new: Optional[com.diffblue.demo.Calculator.<init>:()V]
+19:24:59.215 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:59.223 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.cover.service.analyzer.a.c] Watchdog reset
+19:24:59.224 [DEBUG] [Creating][analyzer-service:TimedExecutor-104][com.diffblue.fuzztest.g.e] 
+================================================================================
+= Creating tests for 'com.diffblue.demo.Calculator.sumOf:(II)I' using 'SiM (!sp, !fnm, df, !ris)'
+================================================================================
+19:24:59.224 [DEBUG] [Creating][analyzer-service:TimedExecutor-104][com.diffblue.fuzztest.g.e] 
+================================================================================
+= Trying DI configuration EmptyDependencyInjectionTirConfiguration for class 'com.diffblue.demo.Calculator', method 'sumOf', descriptor '(II)I'
+================================================================================
+19:24:59.225 [DEBUG] [Creating][analyzer-service:TimedExecutor-104][com.diffblue.cover.commons.dependency.a.b] Detected Mockito version 5.14.2 (via jar:file:/Users/amishra/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar!/org/mockito/Mockito.class)
+19:24:59.468 [DEBUG] [Creating][analyzer-service:TimedExecutor-104][com.diffblue.fuzztest.b.f] Refinement loop done: 1 seeds, 4+0 new+accumulated tests, 0+4 tests+partial tests, 154/1000 its
+19:24:59.499 [DEBUG] [Creating][analyzer-service:TimedExecutor-104][com.diffblue.fuzztest.g.e] Enabling descriptive test naming
+19:24:59.514 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.g.aa] All 1 subs either threw or created only partial tests; returning the 1 partial tests created by 'SiM (!sp, !fnm, df, !ris)'
+19:24:59.514 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] Created 1 partial tests via 'SiM (!sp, !fnm, df, !ris)' , here is the last one:
+19:24:59.529 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:59.543 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] == begin partial test ==
+19:24:59.543 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] Test:
+package com.diffblue.demo;
+
+import com.diffblue.cover.annotations.MethodsUnderTest;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Test;
+
+class CalculatorDiffblueTest {
+  /**
+   * Test {@link Calculator#sumOf(int, int)}.
+   * <ul>
+   *   <li>When three.</li>
+   * </ul>
+   * <p>
+   * Method under test: {@link Calculator#sumOf(int, int)}
+   */
+  @Test
+  @DisplayName("Test sumOf(int, int); when three")
+  @Disabled("TODO: Complete this test")
+  @Tag("MaintainedByDiffblue")
+  @MethodsUnderTest({"int Calculator.sumOf(int, int)"})
+  void testSumOf_whenThree() {
+    // TODO: Diffblue Cover was only able to create a partial test for this method:
+    //   Reason: No inputs found that don't throw a trivial exception.
+    //   Diffblue Cover tried to run the arrange/act section, but the method under
+    //   test threw
+    //   java.lang.NullPointerException: Cannot invoke "com.diffblue.demo.AdderImpl.add(int, int)" because "this.adder" is null
+    //   See https://diff.blue/R013 to resolve this issue.
+
+    // Arrange and Act
+    (new Calculator()).sumOf(3, 3);
+  }
+}
+
+19:24:59.543 [DEBUG] [Creating][analyzer-service:grpc-default-executor-1][com.diffblue.fuzztest.e.c] == end partial test ==
+19:24:59.569 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.l.a.b] in processAnalysisResult for com.diffblue.demo.Calculator.sumOf:(II)I
+19:24:59.569 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.r.d] Finished with MethodGroup: <init>, countOfTests: 0, countOfMethodsTested: 0 TestGenerationAccount: a[countOfRemoved=0, countOfUnchanged=0, countOfUpdated=0, countOfNew=6]
+19:24:59.570 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [5/6] com.diffblue.demo.Calculator.<init>
+19:24:59.570 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [5/6]   Partial tests created: 1
+19:24:59.570 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [5/6]   Reasons for partial tests:
+19:24:59.570 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [5/6]   R002: Missing observers
+19:24:59.570 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [5/6]   (at least 1 line uncovered in this method)
+19:24:59.570 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [5/6]     Diffblue Cover was unable to create an assertion.
+19:24:59.570 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [5/6]     Add getters for the following fields or make them package-private:
+19:24:59.570 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [5/6]       Calculator.adder
+19:24:59.570 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.d.h] Using Javaparser to combine tests
+19:24:59.647 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.combiner.a.c] Adding changeSet to account as new: Optional[com.diffblue.demo.Calculator.sumOf:(II)I]
+19:24:59.657 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.r.d] Finished with MethodGroup: sumOf, countOfTests: 0, countOfMethodsTested: 0 TestGenerationAccount: a[countOfRemoved=0, countOfUnchanged=0, countOfUpdated=0, countOfNew=7]
+19:24:59.660 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6] com.diffblue.demo.Calculator.sumOf
+19:24:59.660 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6]   Partial tests created: 1
+19:24:59.660 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6]   Reasons for partial tests:
+19:24:59.660 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6]   R013: No inputs found that don't throw a trivial exception
+19:24:59.660 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6]   (at least 1 line uncovered in this method)
+19:24:59.660 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6]     Diffblue Cover tried to run the arrange/act section, but the test threw
+19:24:59.660 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6]     java.lang.NullPointerException: Cannot invoke "com.diffblue.demo.AdderImpl.add(int, int)" because "this.adder" is null
+19:24:59.660 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6]     In order to prevent sumOf(int, int)
+19:24:59.660 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6]     from throwing NullPointerException, add constructors or factory
+19:24:59.660 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6]     methods that make it easier to construct fully initialized objects used in
+19:24:59.660 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6]     sumOf(int, int).
+19:24:59.660 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b]     [6/6]     See https://diff.blue/R013 to resolve this issue.
+19:24:59.662 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] [3/3] com.diffblue.demo.Calculator
+19:24:59.662 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] [3/3]   Tests created: 0
+19:24:59.662 [DEBUG] [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] [3/3]   (at least 2 lines uncovered in this class)
+19:24:59.662 [INFO]  [Creating][pool-3-thread-1][com.diffblue.cover.ui.c.b] [3/3]   Partial tests created: 2
+19:24:59.665 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b] 
+19:24:59.665 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b] Test creation summary for module: com.diffblue.demo:java-ee-stateless-bean
+19:24:59.665 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b] --------------------------------------------------------------------------
+19:24:59.666 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b] Total:                                               6 methods
+19:24:59.666 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b] 4 tests created for:                                 1 method
+19:24:59.666 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b] 3 partial tests created for:                         3 methods
+19:24:59.666 [DEBUG] [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b] (at least 8 out of 9 lines uncovered)
+19:24:59.666 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b] 
+19:24:59.666 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b] Tested indirectly via other methods:                 1 method
+19:24:59.666 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b]     1 T005: Trivial constructor
+19:24:59.666 [DEBUG] [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b]     (affects 1 line)
+19:24:59.666 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b] Not unit-testable:                                   1 method
+19:24:59.666 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b]     1 T006: Main method
+19:24:59.666 [DEBUG] [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b]     (affects 4 lines)
+19:24:59.666 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b] No tests created for:                                3 methods
+19:24:59.666 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b]     2 R002: Missing observers
+19:24:59.666 [DEBUG] [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b]     (affects 2 lines)
+19:24:59.666 [INFO]  [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b]     1 R013: No inputs found that don't throw a trivial exception
+19:24:59.666 [DEBUG] [Reporting][pool-3-thread-1][com.diffblue.cover.ui.c.b]     (affects 1 line)
+19:24:59.711 [INFO]  [Validating][main][com.diffblue.cover.ui.controller.q] 
+19:24:59.711 [INFO]  [Validating][main][com.diffblue.cover.ui.controller.q] Running validation command.
+19:24:59.711 [DEBUG] [Validating][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yaml exists...
+19:24:59.711 [DEBUG] [Validating][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yml exists...
+19:24:59.711 [INFO]  [Validating][main][com.diffblue.cover.buildsystem.config.registry.Registry] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:24:59.711 [DEBUG] [Validating][main][com.diffblue.cover.buildsystem.config.registry.Registry] Build execution request for Info Phase
+19:24:59.712 [INFO]  [Validating][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:24:59.723 [INFO]  [Validating][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:24:59.729 [INFO]  [Validating][main][com.diffblue.cover.buildsystem.config.a.a] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+19:25:00.640 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Scanning for projects...
+19:25:00.686 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:00.687 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+19:25:00.689 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:00.689 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:25:00.689 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:25:00.689 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]   from pom.xml
+19:25:00.689 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:25:00.938 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:00.938 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:25:01.079 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:25:01.081 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:01.081 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:25:01.256 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Nothing to compile - all classes are up to date.
+19:25:01.257 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:01.257 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:25:01.259 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:25:01.260 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:01.260 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:25:01.274 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Recompiling the module because of changed source code.
+19:25:01.282 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Compiling 2 source files with javac [debug release 17] to target/test-classes
+19:25:01.651 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:01.651 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:25:01.782 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Tests are skipped.
+19:25:01.783 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:01.783 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- jar:3.4.2:jar (default-jar) @ java-ee-stateless-bean ---
+19:25:02.067 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:02.067 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-stateless-bean ---
+19:25:02.110 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/pom.xml to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.pom
+19:25:02.126 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/target/java-ee-stateless-bean-1.0-SNAPSHOT.jar to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.jar
+19:25:02.172 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:02.172 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] BUILD SUCCESS
+19:25:02.172 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:02.173 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Total time:  1.543 s (Wall Clock)
+19:25:02.173 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Finished at: 2025-03-18T19:25:02Z
+19:25:02.173 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:02.216 [INFO]  [Validating][main][com.diffblue.cover.ui.controller.q] This can take a couple of minutes.
+19:25:02.217 [DEBUG] [Validating][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yaml exists...
+19:25:02.217 [DEBUG] [Validating][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yml exists...
+19:25:02.217 [INFO]  [Validating][main][com.diffblue.cover.buildsystem.config.registry.Registry] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:25:02.217 [DEBUG] [Validating][main][com.diffblue.cover.buildsystem.config.registry.Registry] Build execution request for Validate Phase
+19:25:02.217 [INFO]  [Validating][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:25:02.244 [INFO]  [Validating][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:25:02.247 [INFO]  [Validating][main][com.diffblue.cover.buildsystem.config.a.a] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean clean test"
+19:25:03.182 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Scanning for projects...
+19:25:03.229 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:03.229 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:25:03.229 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:25:03.229 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]   from pom.xml
+19:25:03.229 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:25:03.566 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:03.566 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- clean:3.4.0:clean (default-clean) @ java-ee-stateless-bean ---
+19:25:03.627 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Deleting /Users/amishra/Developer/demo-java-ee-stateless-bean/target
+19:25:03.693 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:03.693 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:25:03.770 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:25:03.771 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:03.771 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:25:03.890 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Recompiling the module because of changed source code.
+19:25:03.897 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Compiling 3 source files with javac [debug release 17] to target/classes
+19:25:04.206 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:04.206 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:25:04.208 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:25:04.209 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:04.209 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:25:04.219 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Recompiling the module because of changed dependency.
+19:25:04.222 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Compiling 2 source files with javac [debug release 17] to target/test-classes
+19:25:04.388 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:04.388 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:25:04.552 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+19:25:04.652 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:04.652 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] -------------------------------------------------------
+19:25:04.652 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]  T E S T S
+19:25:04.652 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] -------------------------------------------------------
+19:25:05.064 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Running com.diffblue.demo.AdderImplDiffblueTest
+19:25:05.109 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 s -- in com.diffblue.demo.AdderImplDiffblueTest
+19:25:05.110 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Running com.diffblue.demo.CalculatorDiffblueTest
+19:25:05.120 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.007 s -- in com.diffblue.demo.CalculatorDiffblueTest
+19:25:05.150 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:05.150 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Results:
+19:25:05.151 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:05.151 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 1
+19:25:05.151 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:05.199 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:05.199 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] BUILD SUCCESS
+19:25:05.199 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:05.199 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Total time:  2.028 s
+19:25:05.199 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Finished at: 2025-03-18T19:25:05Z
+19:25:05.199 [INFO]  [Validating][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:05.266 [INFO]  [Validating][main][com.diffblue.cover.ui.controller.q] All 4 created tests were successfully validated.
+19:25:05.278 [INFO]  [Validating][main][com.diffblue.cover.ui.controller.q] Refactorings have been generated - run `dcover refactor` to apply them
+19:25:05.279 [INFO]  [Measuring][main][com.diffblue.cover.ui.controller.p] Calculating coverage from Diffblue tests.
+19:25:05.282 [DEBUG] [Measuring][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yaml exists...
+19:25:05.282 [DEBUG] [Measuring][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yml exists...
+19:25:05.282 [INFO]  [Measuring][main][com.diffblue.cover.buildsystem.config.registry.Registry] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:25:05.283 [DEBUG] [Measuring][main][com.diffblue.cover.buildsystem.config.registry.Registry] Build execution request for Coverage Phase
+19:25:05.283 [INFO]  [Measuring][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:25:05.295 [INFO]  [Measuring][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:25:05.305 [INFO]  [Measuring][main][com.diffblue.cover.buildsystem.config.a.a] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent -Djacoco.skip=false test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=*DiffblueTest org.jacoco:jacoco-maven-plugin:0.8.11:report -Djacoco.skip=false"
+19:25:06.214 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Scanning for projects...
+19:25:06.310 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:06.310 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:25:06.310 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:25:06.310 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]   from pom.xml
+19:25:06.310 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:25:06.579 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:06.580 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- jacoco:0.8.11:prepare-agent (default-cli) @ java-ee-stateless-bean ---
+19:25:06.784 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] argLine set to -javaagent:/Users/amishra/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/Users/amishra/Developer/demo-java-ee-stateless-bean/target/jacoco.exec
+19:25:06.785 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:06.785 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:25:06.881 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:25:06.882 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:06.882 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:25:07.015 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Nothing to compile - all classes are up to date.
+19:25:07.016 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:07.016 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:25:07.018 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:25:07.019 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:07.019 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:25:07.028 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Nothing to compile - all classes are up to date.
+19:25:07.029 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:07.029 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:25:07.175 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+19:25:07.263 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:07.263 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] -------------------------------------------------------
+19:25:07.263 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]  T E S T S
+19:25:07.263 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] -------------------------------------------------------
+19:25:07.982 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Running com.diffblue.demo.AdderImplDiffblueTest
+19:25:08.057 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s -- in com.diffblue.demo.AdderImplDiffblueTest
+19:25:08.057 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Running com.diffblue.demo.CalculatorDiffblueTest
+19:25:08.075 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.004 s -- in com.diffblue.demo.CalculatorDiffblueTest
+19:25:08.107 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:08.107 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Results:
+19:25:08.107 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:08.107 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 1
+19:25:08.107 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:08.127 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:08.127 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- jacoco:0.8.11:report (default-cli) @ java-ee-stateless-bean ---
+19:25:08.130 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Loading execution data file /Users/amishra/Developer/demo-java-ee-stateless-bean/target/jacoco.exec
+19:25:08.191 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Analyzed bundle 'java-ee-stateless-bean' with 3 classes
+19:25:08.256 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:08.256 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] BUILD SUCCESS
+19:25:08.256 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:08.259 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Total time:  2.051 s
+19:25:08.259 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Finished at: 2025-03-18T19:25:08Z
+19:25:08.259 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:08.331 [INFO]  [Measuring][main][com.diffblue.cover.ui.controller.o] JaCoCo report file created in /Users/amishra/Developer/demo-java-ee-stateless-bean/.diffblue/reports/diffblue-tests-jacoco-report.xml
+19:25:08.370 [INFO]  [Measuring][main][com.diffblue.cover.ui.controller.p] Calculating coverage from manual tests.
+19:25:08.376 [DEBUG] [Measuring][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yaml exists...
+19:25:08.376 [DEBUG] [Measuring][main][com.diffblue.cover.buildsystem.config.registry.Registry] checking if /Users/amishra/Developer/demo-java-ee-stateless-bean/DiffblueBuild.yml exists...
+19:25:08.376 [INFO]  [Measuring][main][com.diffblue.cover.buildsystem.config.registry.Registry] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:25:08.377 [DEBUG] [Measuring][main][com.diffblue.cover.buildsystem.config.registry.Registry] Build execution request for Coverage Phase
+19:25:08.377 [INFO]  [Measuring][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:25:08.385 [INFO]  [Measuring][main][com.diffblue.cover.buildsystem.config.a.a] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:25:08.398 [INFO]  [Measuring][main][com.diffblue.cover.buildsystem.config.a.a] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent -Djacoco.skip=false test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=!*DiffblueTest,**/Test*.java,**/*Test.java,**/*Tests.java,**/*TestCase.java org.jacoco:jacoco-maven-plugin:0.8.11:report -Djacoco.skip=false"
+19:25:09.300 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Scanning for projects...
+19:25:09.386 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:09.386 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:25:09.386 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:25:09.386 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO]   from pom.xml
+19:25:09.386 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:25:09.666 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:09.666 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- jacoco:0.8.11:prepare-agent (default-cli) @ java-ee-stateless-bean ---
+19:25:09.883 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] argLine set to -javaagent:/Users/amishra/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/Users/amishra/Developer/demo-java-ee-stateless-bean/target/jacoco.exec
+19:25:09.885 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:09.885 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:25:10.025 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:25:10.026 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:10.026 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:25:10.168 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Nothing to compile - all classes are up to date.
+19:25:10.169 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:10.169 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:25:10.170 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:25:10.171 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:10.171 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:25:10.181 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Nothing to compile - all classes are up to date.
+19:25:10.182 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:10.182 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:25:10.361 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] 
+19:25:10.361 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] --- jacoco:0.8.11:report (default-cli) @ java-ee-stateless-bean ---
+19:25:10.364 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Loading execution data file /Users/amishra/Developer/demo-java-ee-stateless-bean/target/jacoco.exec
+19:25:10.423 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Analyzed bundle 'java-ee-stateless-bean' with 3 classes
+19:25:10.485 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:10.485 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] BUILD SUCCESS
+19:25:10.485 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:10.486 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Total time:  1.196 s
+19:25:10.486 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] Finished at: 2025-03-18T19:25:10Z
+19:25:10.486 [INFO]  [Measuring][maven:out][com.diffblue.cover.buildsystem.config.a.a] out: [INFO] ------------------------------------------------------------------------
+19:25:10.556 [INFO]  [Measuring][main][com.diffblue.cover.ui.controller.o] JaCoCo report file created in /Users/amishra/Developer/demo-java-ee-stateless-bean/.diffblue/reports/manual-tests-jacoco-report.xml
+19:25:10.571 [INFO]  [Measuring][main][com.diffblue.cover.ui.controller.q] 
+19:25:10.581 [INFO]  [Measuring][main][com.diffblue.cover.ui.controller.q] Diffblue tests cover 3 of 9 lines to cover (33.3%)
+19:25:10.604 [INFO]  [Measuring][main][com.diffblue.cover.ui.controller.q] Manual tests cover 0 of 9 lines to cover (0.0%)
+19:25:10.609 [DEBUG] [Measuring][main][com.diffblue.cover.ui.report.linecount.JavaParserFileLineCountCalculator] /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/java/com/diffblue/demo/Calculator.java successfully parsed: - Total line count: 9
+19:25:10.616 [DEBUG] [Measuring][main][com.diffblue.cover.ui.report.linecount.JavaParserFileLineCountCalculator] /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/java/com/diffblue/demo/App.java successfully parsed: - Total line count: 10
+19:25:10.620 [DEBUG] [Measuring][main][com.diffblue.cover.ui.report.linecount.JavaParserFileLineCountCalculator] /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/java/com/diffblue/demo/AdderImpl.java successfully parsed: - Total line count: 8
+19:25:10.646 [DEBUG] [Reporting][main][com.diffblue.cover.report.StructuredReportManager] Run metrics:
+Total time:                35.0s
+Environment detection:      0.5s ( 1.3%)
+Indexing:                   0.2s ( 0.6%)
+Entry points:               0.4s ( 1.3%)
+Test generation:           12.0s (34.3%)
+  - Index query:            3.2s ( 9.1%)
+Test verification:          1.9s ( 5.5%)
+Test validation:            5.6s (15.9%)
+Other:                     14.4s (41.2%)
+Time to first test:        20.9s (59.6%)
+Time to last test:         24.0s (68.6%)
+19:25:10.650 [DEBUG] [Reporting][main][com.diffblue.cover.report.TraceLogTimingsReportListener] Timings per method:
+00m 01s 236ms | com.diffblue.demo.AdderImpl{<init>}
+00m 03s 714ms | com.diffblue.demo.AdderImpl{add}
+00m 00s 268ms | com.diffblue.demo.App{<init>}
+00m 00s 046ms | com.diffblue.demo.Calculator{<init>}
+00m 00s 840ms | com.diffblue.demo.Calculator{sumOf}
+00m 03s 199ms | Indexing
+19:25:10.652 [DEBUG] [Reporting][main][com.diffblue.cover.report.TraceLogTimingsReportListener] Timing signature:    40.2s (    9.0s (22.5%)     2.7s ( 6.7%) (    1.4s ( 3.4%)     0.4s ( 1.0%) (    0.0s ( 0.0%)     0.3s ( 0.8%) (    0.3s ( 0.8%) (    0.0s ( 0.0%)     0.1s ( 0.3%)     0.2s ( 0.4%))     0.0s ( 0.0%) (    0.0s ( 0.0%)     0.0s ( 0.0%)     0.0s ( 0.0%))     0.0s ( 0.0%) (    0.0s ( 0.0%)     0.0s ( 0.0%)     0.0s ( 0.0%))     0.0s ( 0.0%)     0.0s ( 0.0%)     0.0s ( 0.0%)     0.0s ( 0.0%) (    0.0s ( 0.0%)     0.0s ( 0.0%)     0.0s ( 0.0%)))     0.0s ( 0.1%)     0.0s ( 0.1%)     0.0s ( 0.0%))     0.1s ( 0.4%)     0.0s ( 0.0%)     0.0s ( 0.1%)     0.8s ( 1.9%))    10.4s (25.9%)     5.6s (14.0%)    12.4s (30.9%)
+19:25:10.745 [INFO]  [Reporting][main][com.diffblue.cover.ui.controller.q] Writing JSON report to /Users/amishra/Developer/demo-java-ee-stateless-bean/.diffblue/reports/report.json
+19:25:10.883 [INFO]  [Reporting][main][com.diffblue.cover.ui.controller.ag] 
+19:25:10.884 [INFO]  [Reporting][main][com.diffblue.cover.ui.controller.ag] Log file: /Users/amishra/Developer/demo-java-ee-stateless-bean/.diffblue/log/user-20250318T192428.log
+19:25:10.884 [INFO]  [Reporting][main][com.diffblue.cover.ui.controller.ag] Finished in 35s
