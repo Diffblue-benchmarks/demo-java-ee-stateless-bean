@@ -1,7 +1,3 @@
 name: com.diffblue.cover.refactoring.Recipe
-recipeList:
-- com.diffblue.cover.refactoring.recipes.AddGetter: {className: com.diffblue.demo.Calculator,
-    fieldName: adder}
-- com.diffblue.cover.refactoring.recipes.AddGetter: {className: com.diffblue.demo.Calculator,
-    fieldName: adder}
+recipeList: []
 type: specs.openrewrite.org/v1beta/recipe

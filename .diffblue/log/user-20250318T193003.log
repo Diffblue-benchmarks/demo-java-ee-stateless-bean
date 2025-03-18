@@ -1,0 +1,538 @@
+19:30:04.341 [INFO]  [Preparing] Diffblue Cover 2025.02.02-08b2a5a-licensed
+19:30:04.341 [INFO]  [Preparing] Running: dcover create --keep-partial-tests --coverage-reports
+19:30:04.341 [INFO]  [Preparing] 
+19:30:04.341 [INFO]  [Preparing] Command: create
+19:30:04.342 [INFO]  [Preparing] Create tests for the specified package/class/method.
+19:30:04.342 [INFO]  [Preparing] 
+19:30:07.555 [INFO]  [Checking] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+19:30:07.556 [INFO]  [Checking] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-stateless-bean && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+19:30:08.040 [INFO]  [Checking] Standard output of build tool (Maven)
+19:30:08.040 [INFO]  [Checking] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+19:30:08.040 [INFO]  [Checking] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+19:30:08.040 [INFO]  [Checking] > Java version: 17.0.14, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home
+19:30:08.040 [INFO]  [Checking] > Default locale: en_GB, platform encoding: UTF-8
+19:30:08.040 [INFO]  [Checking] > OS name: "mac os x", version: "15.3.2", arch: "aarch64", family: "mac"
+19:30:08.042 [INFO]  [Checking] Using CUSTOMISABLE Build System Implementation
+19:30:08.133 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:30:08.139 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:08.150 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:08.161 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+19:30:09.085 [INFO]  [Checking] out: [INFO] Scanning for projects...
+19:30:09.131 [INFO]  [Checking] out: [INFO] 
+19:30:09.131 [INFO]  [Checking] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+19:30:09.133 [INFO]  [Checking] out: [INFO] 
+19:30:09.133 [INFO]  [Checking] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:30:09.133 [INFO]  [Checking] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:30:09.133 [INFO]  [Checking] out: [INFO]   from pom.xml
+19:30:09.133 [INFO]  [Checking] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:30:09.478 [INFO]  [Checking] out: [INFO] 
+19:30:09.478 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:30:09.642 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:30:09.644 [INFO]  [Checking] out: [INFO] 
+19:30:09.644 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:30:09.839 [INFO]  [Checking] out: [INFO] Recompiling the module because of changed source code.
+19:30:09.855 [INFO]  [Checking] out: [INFO] Compiling 3 source files with javac [debug release 17] to target/classes
+19:30:10.140 [INFO]  [Checking] out: [INFO] 
+19:30:10.140 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:30:10.142 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:30:10.143 [INFO]  [Checking] out: [INFO] 
+19:30:10.143 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:30:10.153 [INFO]  [Checking] out: [INFO] Recompiling the module because of changed dependency.
+19:30:10.166 [INFO]  [Checking] out: [INFO] Compiling 2 source files with javac [debug release 17] to target/test-classes
+19:30:10.319 [INFO]  [Checking] out: [INFO] 
+19:30:10.319 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:30:10.467 [INFO]  [Checking] out: [INFO] Tests are skipped.
+19:30:10.469 [INFO]  [Checking] out: [INFO] 
+19:30:10.469 [INFO]  [Checking] out: [INFO] --- jar:3.4.2:jar (default-jar) @ java-ee-stateless-bean ---
+19:30:10.761 [INFO]  [Checking] out: [INFO] Building jar: /Users/amishra/Developer/demo-java-ee-stateless-bean/target/java-ee-stateless-bean-1.0-SNAPSHOT.jar
+19:30:10.784 [INFO]  [Checking] out: [INFO] 
+19:30:10.784 [INFO]  [Checking] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-stateless-bean ---
+19:30:10.832 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/pom.xml to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.pom
+19:30:10.844 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/target/java-ee-stateless-bean-1.0-SNAPSHOT.jar to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.jar
+19:30:10.912 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:10.912 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+19:30:10.912 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:10.912 [INFO]  [Checking] out: [INFO] Total time:  1.824 s (Wall Clock)
+19:30:10.912 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-18T19:30:10Z
+19:30:10.912 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:10.947 [INFO]  [Checking] Operating System: Mac OS X aarch64 15.3.2
+19:30:10.947 [INFO]  [Checking] Default charset: UTF-8
+19:30:10.947 [INFO]  [Checking] Default locale: en_GB
+19:30:10.947 [INFO]  [Checking] Default time zone: Europe/London
+19:30:10.956 [INFO]  [Checking] Discovered modules:
+19:30:10.956 [INFO]  [Checking] - com.diffblue.demo:java-ee-stateless-bean
+19:30:10.956 [INFO]  [Checking] 
+19:30:10.960 [INFO]  [Checking] 
+19:30:10.960 [INFO]  [Checking] [1/1] Creating tests for module: com.diffblue.demo:java-ee-stateless-bean
+19:30:10.960 [INFO]  [Checking] =========================================================================
+19:30:10.960 [INFO]  [Checking] 
+19:30:10.960 [INFO]  [Checking] Detecting environment:
+19:30:10.960 [INFO]  [Checking] ----------------------
+19:30:10.998 [INFO]  [Checking] Detected Java version 17.0.14
+19:30:10.999 [INFO]  [Checking] Maven Using ${maven.home} of: /opt/homebrew/Cellar/maven/3.9.9.
+19:30:10.999 [INFO]  [Checking] Maven Executing: /bin/sh -c cd /Users/amishra/Developer/demo-java-ee-stateless-bean && /opt/homebrew/Cellar/maven/3.9.9/bin/mvn -B -version
+19:30:11.449 [INFO]  [Checking] Standard output of build tool (Maven)
+19:30:11.450 [INFO]  [Checking] > Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+19:30:11.450 [INFO]  [Checking] > Maven home: /opt/homebrew/Cellar/maven/3.9.9/libexec
+19:30:11.450 [INFO]  [Checking] > Java version: 17.0.14, vendor: Homebrew, runtime: /opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home
+19:30:11.450 [INFO]  [Checking] > Default locale: en_GB, platform encoding: UTF-8
+19:30:11.450 [INFO]  [Checking] > OS name: "mac os x", version: "15.3.2", arch: "aarch64", family: "mac"
+19:30:11.450 [INFO]  [Checking] Using CUSTOMISABLE Build System Implementation
+19:30:11.451 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:30:11.451 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:11.479 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:11.482 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+19:30:12.422 [INFO]  [Checking] out: [INFO] Scanning for projects...
+19:30:12.471 [INFO]  [Checking] out: [INFO] 
+19:30:12.471 [INFO]  [Checking] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+19:30:12.473 [INFO]  [Checking] out: [INFO] 
+19:30:12.474 [INFO]  [Checking] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:30:12.474 [INFO]  [Checking] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:30:12.474 [INFO]  [Checking] out: [INFO]   from pom.xml
+19:30:12.474 [INFO]  [Checking] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:30:12.747 [INFO]  [Checking] out: [INFO] 
+19:30:12.747 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:30:12.933 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:30:12.935 [INFO]  [Checking] out: [INFO] 
+19:30:12.935 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:30:13.103 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+19:30:13.105 [INFO]  [Checking] out: [INFO] 
+19:30:13.105 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:30:13.106 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:30:13.108 [INFO]  [Checking] out: [INFO] 
+19:30:13.108 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:30:13.121 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+19:30:13.122 [INFO]  [Checking] out: [INFO] 
+19:30:13.122 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:30:13.257 [INFO]  [Checking] out: [INFO] Tests are skipped.
+19:30:13.258 [INFO]  [Checking] out: [INFO] 
+19:30:13.258 [INFO]  [Checking] out: [INFO] --- jar:3.4.2:jar (default-jar) @ java-ee-stateless-bean ---
+19:30:13.501 [INFO]  [Checking] out: [INFO] 
+19:30:13.501 [INFO]  [Checking] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-stateless-bean ---
+19:30:13.539 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/pom.xml to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.pom
+19:30:13.552 [INFO]  [Checking] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/target/java-ee-stateless-bean-1.0-SNAPSHOT.jar to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.jar
+19:30:13.605 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:13.605 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+19:30:13.606 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:13.606 [INFO]  [Checking] out: [INFO] Total time:  1.194 s (Wall Clock)
+19:30:13.606 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-18T19:30:13Z
+19:30:13.606 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:13.649 [INFO]  [Checking] Detected build system: Maven 3.9.9
+19:30:13.649 [INFO]  [Checking] Operating System: Mac OS X aarch64 15.3.2
+19:30:13.649 [INFO]  [Checking] Default charset: UTF-8
+19:30:13.649 [INFO]  [Checking] Default locale: en_GB
+19:30:13.649 [INFO]  [Checking] Default time zone: Europe/London
+19:30:13.649 [INFO]  [Checking] Selected build system: Maven
+19:30:13.651 [INFO]  [Checking] Selected classpath from build system maven
+19:30:13.652 [INFO]  [Checking] Expanded classpath: 
+/Users/amishra/Developer/demo-java-ee-stateless-bean/target/test-classes (test build path)
+/Users/amishra/Developer/demo-java-ee-stateless-bean/target/classes (code under test)
+/Users/amishra/.m2/repository/com/diffblue/cover/cover-annotations/1.3.0/cover-annotations-1.3.0.jar
+/Users/amishra/.m2/repository/jakarta/ejb/jakarta.ejb-api/4.0.1/jakarta.ejb-api-4.0.1.jar
+/Users/amishra/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.0/jakarta.transaction-api-2.0.0.jar
+/Users/amishra/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar
+/Users/amishra/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.0/junit-jupiter-api-5.11.0.jar
+/Users/amishra/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar
+/Users/amishra/.m2/repository/org/junit/platform/junit-platform-commons/1.11.0/junit-platform-commons-1.11.0.jar
+/Users/amishra/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar
+/Users/amishra/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.0/junit-jupiter-engine-5.11.0.jar
+/Users/amishra/.m2/repository/org/junit/platform/junit-platform-engine/1.11.0/junit-platform-engine-1.11.0.jar
+/Users/amishra/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.0/junit-jupiter-params-5.11.0.jar
+/Users/amishra/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy/1.15.4/byte-buddy-1.15.4.jar
+/Users/amishra/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.4/byte-buddy-agent-1.15.4.jar
+/Users/amishra/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar
+19:30:13.693 [INFO]  [Checking] Detected test framework: JUnit Jupiter 5.11.0
+19:30:13.704 [INFO]  [Checking] Detected JUnit Jupiter version 5.11.0
+19:30:13.715 [INFO]  [Checking] Detected JUnit Jupiter Params version 5.11.0
+19:30:13.744 [INFO]  [Checking] Detected Mockito version 5.14.2
+19:30:14.173 [INFO]  [Checking] Indexing...
+19:30:14.381 [INFO]  [Checking] Selected test output directory: /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/java
+19:30:14.394 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:30:14.395 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:14.406 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:14.418 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=DummyJupiterDiffblueTest"
+19:30:15.334 [INFO]  [Checking] out: [INFO] Scanning for projects...
+19:30:15.382 [INFO]  [Checking] out: [INFO] 
+19:30:15.382 [INFO]  [Checking] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:30:15.382 [INFO]  [Checking] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:30:15.382 [INFO]  [Checking] out: [INFO]   from pom.xml
+19:30:15.382 [INFO]  [Checking] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:30:15.667 [INFO]  [Checking] out: [INFO] 
+19:30:15.667 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:30:15.842 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:30:15.843 [INFO]  [Checking] out: [INFO] 
+19:30:15.844 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:30:16.020 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+19:30:16.021 [INFO]  [Checking] out: [INFO] 
+19:30:16.021 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:30:16.023 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:30:16.024 [INFO]  [Checking] out: [INFO] 
+19:30:16.024 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:30:16.039 [INFO]  [Checking] out: [INFO] Recompiling the module because of changed source code.
+19:30:16.057 [INFO]  [Checking] out: [INFO] Compiling 3 source files with javac [debug release 17] to target/test-classes
+19:30:16.464 [INFO]  [Checking] out: [INFO] 
+19:30:16.464 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:30:16.608 [INFO]  [Checking] out: [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+19:30:16.693 [INFO]  [Checking] out: [INFO] 
+19:30:16.694 [INFO]  [Checking] out: [INFO] -------------------------------------------------------
+19:30:16.694 [INFO]  [Checking] out: [INFO]  T E S T S
+19:30:16.694 [INFO]  [Checking] out: [INFO] -------------------------------------------------------
+19:30:17.055 [INFO]  [Checking] out: [INFO] Running DummyJupiterDiffblueTest
+19:30:17.084 [INFO]  [Checking] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s -- in DummyJupiterDiffblueTest
+19:30:17.090 [INFO]  [Checking] out: [INFO] 
+19:30:17.090 [INFO]  [Checking] out: [INFO] Results:
+19:30:17.090 [INFO]  [Checking] out: [INFO] 
+19:30:17.091 [INFO]  [Checking] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+19:30:17.091 [INFO]  [Checking] out: [INFO] 
+19:30:17.116 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:17.117 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+19:30:17.117 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:17.117 [INFO]  [Checking] out: [INFO] Total time:  1.794 s
+19:30:17.117 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-18T19:30:17Z
+19:30:17.117 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:17.158 [INFO]  [Checking] Selected test framework: JUnit Jupiter
+19:30:17.179 [INFO]  [Checking] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:30:17.179 [INFO]  [Checking] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:17.183 [INFO]  [Checking] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:17.186 [INFO]  [Checking] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=DummyJUnitJupiterLauncherDiffblueTest3121478039338131748"
+19:30:18.048 [INFO]  [Checking] out: [INFO] Scanning for projects...
+19:30:18.095 [INFO]  [Checking] out: [INFO] 
+19:30:18.095 [INFO]  [Checking] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:30:18.095 [INFO]  [Checking] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:30:18.095 [INFO]  [Checking] out: [INFO]   from pom.xml
+19:30:18.095 [INFO]  [Checking] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:30:18.399 [INFO]  [Checking] out: [INFO] 
+19:30:18.399 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:30:18.591 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:30:18.592 [INFO]  [Checking] out: [INFO] 
+19:30:18.592 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:30:18.789 [INFO]  [Checking] out: [INFO] Nothing to compile - all classes are up to date.
+19:30:18.790 [INFO]  [Checking] out: [INFO] 
+19:30:18.790 [INFO]  [Checking] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:30:18.791 [INFO]  [Checking] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:30:18.792 [INFO]  [Checking] out: [INFO] 
+19:30:18.792 [INFO]  [Checking] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:30:18.807 [INFO]  [Checking] out: [INFO] Recompiling the module because of changed source code.
+19:30:18.825 [INFO]  [Checking] out: [INFO] Compiling 3 source files with javac [debug release 17] to target/test-classes
+19:30:19.260 [INFO]  [Checking] out: [INFO] 
+19:30:19.260 [INFO]  [Checking] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:30:19.421 [INFO]  [Checking] out: [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+19:30:19.517 [INFO]  [Checking] out: [INFO] 
+19:30:19.517 [INFO]  [Checking] out: [INFO] -------------------------------------------------------
+19:30:19.518 [INFO]  [Checking] out: [INFO]  T E S T S
+19:30:19.518 [INFO]  [Checking] out: [INFO] -------------------------------------------------------
+19:30:19.889 [INFO]  [Checking] out: [INFO] Running DummyJUnitJupiterLauncherDiffblueTest3121478039338131748
+19:30:19.927 [INFO]  [Checking] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.030 s -- in DummyJUnitJupiterLauncherDiffblueTest3121478039338131748
+19:30:19.937 [INFO]  [Checking] out: [INFO] 
+19:30:19.937 [INFO]  [Checking] out: [INFO] Results:
+19:30:19.937 [INFO]  [Checking] out: [INFO] 
+19:30:19.937 [INFO]  [Checking] out: [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+19:30:19.937 [INFO]  [Checking] out: [INFO] 
+19:30:19.977 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:19.977 [INFO]  [Checking] out: [INFO] BUILD SUCCESS
+19:30:19.977 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:19.977 [INFO]  [Checking] out: [INFO] Total time:  1.940 s
+19:30:19.977 [INFO]  [Checking] out: [INFO] Finished at: 2025-03-18T19:30:19Z
+19:30:19.977 [INFO]  [Checking] out: [INFO] ------------------------------------------------------------------------
+19:30:20.403 [INFO]  [Checking] Detected JVM architecture: 64-Bit
+19:30:20.559 [INFO]  [Checking] Selected Java language compliance level: 17
+19:30:20.559 [INFO]  [Checking] Selected test validation: enabled
+19:30:20.569 [INFO]  [Checking] Prefixes for filtering classes/methods:
+19:30:20.569 [INFO]  [Checking] - com.diffblue.demo
+19:30:20.569 [INFO]  [Checking] Gathering methods to test...
+19:30:21.059 [INFO]  [Reporting] 
+19:30:21.059 [INFO]  [Reporting] Environment summary for module: com.diffblue.demo:java-ee-stateless-bean
+19:30:21.059 [INFO]  [Reporting] ------------------------------------------------------------------------
+19:30:21.059 [INFO]  [Reporting] Java version                   17.0.14                       SUCCESS        
+19:30:21.059 [INFO]  [Reporting] Build system                   Maven                         SUCCESS        
+19:30:21.059 [INFO]  [Reporting] Mocking Framework              Mockito 5.14.2                SUCCESS        
+19:30:21.059 [INFO]  [Reporting] Surefire version               3.3.0                         SUCCESS        
+19:30:21.059 [INFO]  [Reporting] Testing framework              JUnit Jupiter 5               SUCCESS        
+19:30:21.059 [INFO]  [Reporting] JavaEE version                 Skipped                       -----          
+19:30:21.059 [INFO]  [Reporting] Spring Core                    Not Detected                  -----          
+19:30:21.059 [INFO]  [Reporting] JaCoCo plugin version          0.8.11                        SUCCESS        
+19:30:21.059 [INFO]  [Reporting] Launcher                       JUnit Jupiter                 SUCCESS        
+19:30:21.059 [INFO]  [Reporting] Quarkus                        Not Detected                  -----          
+19:30:21.059 [INFO]  [Reporting] Test validation                Enabled                       SUCCESS        
+19:30:21.059 [INFO]  [Reporting] Hamcrest                       Not Detected                  -----          
+19:30:21.059 [INFO]  [Reporting] Spring Boot                    Skipped                       -----          
+19:30:21.059 [INFO]  [Reporting] Spring Boot Starter Webflux    Skipped                       -----          
+19:30:21.059 [INFO]  [Reporting] Spring Boot Test Autoconfigure Skipped                       -----          
+19:30:21.059 [INFO]  [Reporting] Spring Boot Test               Skipped                       -----          
+19:30:21.059 [INFO]  [Reporting] Spring Web                     Skipped                       -----          
+19:30:21.059 [INFO]  [Reporting] Spring Security Web            Skipped                       -----          
+19:30:21.059 [INFO]  [Reporting] Spring Test                    Skipped                       -----          
+19:30:21.059 [INFO]  [Reporting] Cover Annotations              Not Detected                  -----          
+19:30:21.059 [INFO]  [Reporting] 
+19:30:21.059 [INFO]  [Reporting] Environment check status: SUCCESS
+19:30:21.310 [INFO]  [Creating] Found 6 callable methods in 3 classes
+19:30:21.311 [INFO]  [Creating] 
+19:30:21.311 [INFO]  [Creating] Creating tests:
+19:30:21.311 [INFO]  [Creating] ---------------
+19:30:21.313 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'com.diffblue.demo.AdderImpl'
+================================================================================
+19:30:21.314 [INFO]  [Creating] Filtering out non-testable methods...
+19:30:21.315 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+19:30:21.316 [INFO]  [Creating] Attempting to get service client, retry 1.
+19:30:21.329 [INFO]  [Creating] Starting monitoring server.
+19:30:21.441 [INFO]  [Creating] Monitoring server listening on localhost/127.0.0.1:57985
+19:30:21.536 [INFO]  [Creating] Starting analyzer server process...
+19:30:21.536 [INFO]  [Creating] Server command-line: /opt/homebrew/Cellar/openjdk@17/17.0.14/libexec/openjdk.jdk/Contents/Home/bin/java -XX:+IgnoreUnrecognizedVMOptions -Djdk.attach.allowAttachSelf=true -Djdk.jar.maxSignatureFileSize=100000000 -ea -javaagent:/usr/local/bin/diffblue/launcher-shared-jar.jar -Dlogback.configurationFile=/var/folders/p2/qfsg813s0h9b5mhb_8typkwm0000gp/T/diffblue/config/logback-remote-service.xml -Dcom.diffblue.springIsolationJar=/usr/local/bin/diffblue/cover-isolation-layer.jar -Dcover.jar.path=/usr/local/bin/diffblue/cover-service-analyzer.jar -Dcom.diffblue.assertionSuggestionJar=/usr/local/bin/diffblue/cover-service-analyzer.jar -Dcover.main.class=com.diffblue.cover.service.analyzer.Main -jar /usr/local/bin/diffblue/launcher-shared-jar.jar --service-lifespan 120 --monitoring-service-port 57985 --index-service-port 57985 --debug-log
+19:30:21.547 [INFO]  [Creating] Server started. Waiting up to 300 seconds for a connection to be established...
+19:30:22.355 [INFO]  [Creating] Starting new remote monitor client
+19:30:22.917 [INFO]  [Creating] Attempting to start remote server.
+19:30:23.370 [INFO]  [Creating] Server started, listening on localhost/127.0.0.1:57987
+19:30:23.373 [INFO]  [Creating] Expect analyzer service to be listening on port 57987.
+19:30:24.299 [INFO]  [Creating] Started analyzer service and client retrieved.
+19:30:31.741 [INFO]  [Creating]     [1/6] com.diffblue.demo.AdderImpl.<init>
+19:30:31.741 [INFO]  [Creating]     [1/6]   Partial tests created: 1
+19:30:31.741 [INFO]  [Creating]     [1/6]   Reasons for partial tests:
+19:30:31.741 [INFO]  [Creating]     [1/6]   R002: Missing observers
+19:30:31.741 [INFO]  [Creating]     [1/6]     Diffblue Cover was unable to create an assertion.
+19:30:31.741 [INFO]  [Creating]     [1/6]     There are no fields that could be asserted on.
+19:30:32.286 [INFO]  [Creating]     [2/6] com.diffblue.demo.AdderImpl.add
+19:30:32.286 [INFO]  [Creating]     [2/6]   Tests created: 4
+19:30:32.290 [INFO]  [Creating] [1/3] com.diffblue.demo.AdderImpl
+19:30:32.290 [INFO]  [Creating] [1/3]   Tests created: 4
+19:30:32.290 [INFO]  [Creating] [1/3]   Partial tests created: 1
+19:30:32.290 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'com.diffblue.demo.App'
+================================================================================
+19:30:32.290 [INFO]  [Creating] Filtering out non-testable methods...
+19:30:34.447 [INFO]  [Creating]     [3/6] com.diffblue.demo.App.main
+19:30:34.448 [INFO]  [Creating]     [3/6]   T006: Main method
+19:30:34.448 [INFO]  [Creating]     [3/6]     It is difficult to assert on side effects of main methods in a unit test.
+19:30:34.448 [INFO]  [Creating]     [3/6]     Refactor the main method. E.g. factor out its body into a separate,
+19:30:34.448 [INFO]  [Creating]     [3/6]     accessible method that returns the results that should be asserted on.
+19:30:34.448 [INFO]  [Creating]     [3/6]     See https://diff.blue/T006 for information on testing main methods.
+19:30:34.448 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+19:30:34.448 [INFO]  [Creating] Attempting to get service client, retry 1.
+19:30:34.646 [INFO]  [Creating]     [4/6] com.diffblue.demo.App.<init>
+19:30:34.646 [INFO]  [Creating]     [4/6]   T005: Trivial constructor
+19:30:34.646 [INFO]  [Creating]     [4/6]     See https://diff.blue/T005
+19:30:34.650 [INFO]  [Creating] [2/3] com.diffblue.demo.App
+19:30:34.650 [INFO]  [Creating] [2/3]   Tests created: 0
+19:30:34.650 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'com.diffblue.demo.Calculator'
+================================================================================
+19:30:34.650 [INFO]  [Creating] Filtering out non-testable methods...
+19:30:34.650 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+19:30:34.650 [INFO]  [Creating] Attempting to get service client, retry 1.
+19:30:36.280 [INFO]  [Creating]     [5/6] com.diffblue.demo.Calculator.<init>
+19:30:36.280 [INFO]  [Creating]     [5/6]   Tests created: 1
+19:30:36.846 [INFO]  [Creating]     [6/6] com.diffblue.demo.Calculator.sumOf
+19:30:36.846 [INFO]  [Creating]     [6/6]   Tests created: 2
+19:30:36.848 [INFO]  [Creating] [3/3] com.diffblue.demo.Calculator
+19:30:36.848 [INFO]  [Creating] [3/3]   Tests created: 3
+19:30:36.855 [INFO]  [Reporting] 
+19:30:36.855 [INFO]  [Reporting] Test creation summary for module: com.diffblue.demo:java-ee-stateless-bean
+19:30:36.855 [INFO]  [Reporting] --------------------------------------------------------------------------
+19:30:36.855 [INFO]  [Reporting] Total:                                               6 methods
+19:30:36.855 [INFO]  [Reporting] 7 tests created for:                                 3 methods
+19:30:36.855 [INFO]  [Reporting] 1 partial test created for:                          1 method
+19:30:36.855 [INFO]  [Reporting] 
+19:30:36.855 [INFO]  [Reporting] Tested indirectly via other methods:                 1 method
+19:30:36.855 [INFO]  [Reporting]     1 T005: Trivial constructor
+19:30:36.855 [INFO]  [Reporting] Not unit-testable:                                   1 method
+19:30:36.855 [INFO]  [Reporting]     1 T006: Main method
+19:30:36.855 [INFO]  [Reporting] No tests created for:                                1 method
+19:30:36.856 [INFO]  [Reporting]     1 R002: Missing observers
+19:30:36.900 [INFO]  [Validating] 
+19:30:36.900 [INFO]  [Validating] Running validation command.
+19:30:36.900 [INFO]  [Validating] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:30:36.901 [INFO]  [Validating] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:36.916 [INFO]  [Validating] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:36.927 [INFO]  [Validating] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean install -Dmaven.compiler.failOnWarning=false --also-make -DskipTests -DskipITs --threads=1C"
+19:30:37.822 [INFO]  [Validating] out: [INFO] Scanning for projects...
+19:30:37.871 [INFO]  [Validating] out: [INFO] 
+19:30:37.871 [INFO]  [Validating] out: [INFO] Using the MultiThreadedBuilder implementation with a thread count of 10
+19:30:37.873 [INFO]  [Validating] out: [INFO] 
+19:30:37.873 [INFO]  [Validating] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:30:37.873 [INFO]  [Validating] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:30:37.873 [INFO]  [Validating] out: [INFO]   from pom.xml
+19:30:37.873 [INFO]  [Validating] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:30:38.195 [INFO]  [Validating] out: [INFO] 
+19:30:38.195 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:30:38.380 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:30:38.382 [INFO]  [Validating] out: [INFO] 
+19:30:38.382 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:30:38.581 [INFO]  [Validating] out: [INFO] Nothing to compile - all classes are up to date.
+19:30:38.583 [INFO]  [Validating] out: [INFO] 
+19:30:38.583 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:30:38.584 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:30:38.586 [INFO]  [Validating] out: [INFO] 
+19:30:38.586 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:30:38.600 [INFO]  [Validating] out: [INFO] Recompiling the module because of changed source code.
+19:30:38.617 [INFO]  [Validating] out: [INFO] Compiling 2 source files with javac [debug release 17] to target/test-classes
+19:30:39.025 [INFO]  [Validating] out: [INFO] 
+19:30:39.025 [INFO]  [Validating] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:30:39.168 [INFO]  [Validating] out: [INFO] Tests are skipped.
+19:30:39.170 [INFO]  [Validating] out: [INFO] 
+19:30:39.170 [INFO]  [Validating] out: [INFO] --- jar:3.4.2:jar (default-jar) @ java-ee-stateless-bean ---
+19:30:39.443 [INFO]  [Validating] out: [INFO] 
+19:30:39.444 [INFO]  [Validating] out: [INFO] --- install:3.1.2:install (default-install) @ java-ee-stateless-bean ---
+19:30:39.492 [INFO]  [Validating] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/pom.xml to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.pom
+19:30:39.509 [INFO]  [Validating] out: [INFO] Installing /Users/amishra/Developer/demo-java-ee-stateless-bean/target/java-ee-stateless-bean-1.0-SNAPSHOT.jar to /Users/amishra/.m2/repository/com/diffblue/demo/java-ee-stateless-bean/1.0-SNAPSHOT/java-ee-stateless-bean-1.0-SNAPSHOT.jar
+19:30:39.556 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+19:30:39.556 [INFO]  [Validating] out: [INFO] BUILD SUCCESS
+19:30:39.556 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+19:30:39.556 [INFO]  [Validating] out: [INFO] Total time:  1.745 s (Wall Clock)
+19:30:39.557 [INFO]  [Validating] out: [INFO] Finished at: 2025-03-18T19:30:39Z
+19:30:39.557 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+19:30:39.599 [INFO]  [Validating] This can take a couple of minutes.
+19:30:39.600 [INFO]  [Validating] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:30:39.601 [INFO]  [Validating] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:39.623 [INFO]  [Validating] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:39.626 [INFO]  [Validating] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean clean test"
+19:30:40.556 [INFO]  [Validating] out: [INFO] Scanning for projects...
+19:30:40.602 [INFO]  [Validating] out: [INFO] 
+19:30:40.602 [INFO]  [Validating] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:30:40.602 [INFO]  [Validating] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:30:40.602 [INFO]  [Validating] out: [INFO]   from pom.xml
+19:30:40.602 [INFO]  [Validating] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:30:40.921 [INFO]  [Validating] out: [INFO] 
+19:30:40.921 [INFO]  [Validating] out: [INFO] --- clean:3.4.0:clean (default-clean) @ java-ee-stateless-bean ---
+19:30:40.986 [INFO]  [Validating] out: [INFO] Deleting /Users/amishra/Developer/demo-java-ee-stateless-bean/target
+19:30:41.034 [INFO]  [Validating] out: [INFO] 
+19:30:41.034 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:30:41.112 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:30:41.114 [INFO]  [Validating] out: [INFO] 
+19:30:41.114 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:30:41.224 [INFO]  [Validating] out: [INFO] Recompiling the module because of changed source code.
+19:30:41.230 [INFO]  [Validating] out: [INFO] Compiling 3 source files with javac [debug release 17] to target/classes
+19:30:41.534 [INFO]  [Validating] out: [INFO] 
+19:30:41.534 [INFO]  [Validating] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:30:41.536 [INFO]  [Validating] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:30:41.537 [INFO]  [Validating] out: [INFO] 
+19:30:41.537 [INFO]  [Validating] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:30:41.549 [INFO]  [Validating] out: [INFO] Recompiling the module because of changed dependency.
+19:30:41.551 [INFO]  [Validating] out: [INFO] Compiling 2 source files with javac [debug release 17] to target/test-classes
+19:30:41.736 [INFO]  [Validating] out: [INFO] 
+19:30:41.736 [INFO]  [Validating] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:30:41.898 [INFO]  [Validating] out: [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+19:30:41.993 [INFO]  [Validating] out: [INFO] 
+19:30:41.993 [INFO]  [Validating] out: [INFO] -------------------------------------------------------
+19:30:41.993 [INFO]  [Validating] out: [INFO]  T E S T S
+19:30:41.993 [INFO]  [Validating] out: [INFO] -------------------------------------------------------
+19:30:42.421 [INFO]  [Validating] out: [INFO] Running com.diffblue.demo.AdderImplDiffblueTest
+19:30:42.457 [INFO]  [Validating] out: [INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 s -- in com.diffblue.demo.AdderImplDiffblueTest
+19:30:42.457 [INFO]  [Validating] out: [INFO] Running com.diffblue.demo.CalculatorDiffblueTest
+19:30:42.795 [INFO]  [Validating] err: OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+19:30:43.078 [INFO]  [Validating] out: [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.624 s -- in com.diffblue.demo.CalculatorDiffblueTest
+19:30:43.101 [INFO]  [Validating] out: [INFO] 
+19:30:43.101 [INFO]  [Validating] out: [INFO] Results:
+19:30:43.101 [INFO]  [Validating] out: [INFO] 
+19:30:43.101 [INFO]  [Validating] out: [INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+19:30:43.101 [INFO]  [Validating] out: [INFO] 
+19:30:43.144 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+19:30:43.144 [INFO]  [Validating] out: [INFO] BUILD SUCCESS
+19:30:43.144 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+19:30:43.144 [INFO]  [Validating] out: [INFO] Total time:  2.598 s
+19:30:43.144 [INFO]  [Validating] out: [INFO] Finished at: 2025-03-18T19:30:43Z
+19:30:43.144 [INFO]  [Validating] out: [INFO] ------------------------------------------------------------------------
+19:30:43.212 [INFO]  [Validating] All 7 created tests were successfully validated.
+19:30:43.232 [INFO]  [Measuring] Calculating coverage from Diffblue tests.
+19:30:43.236 [INFO]  [Measuring] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:30:43.237 [INFO]  [Measuring] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:43.245 [INFO]  [Measuring] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:43.254 [INFO]  [Measuring] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent -Djacoco.skip=false test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=*DiffblueTest org.jacoco:jacoco-maven-plugin:0.8.11:report -Djacoco.skip=false"
+19:30:44.172 [INFO]  [Measuring] out: [INFO] Scanning for projects...
+19:30:44.261 [INFO]  [Measuring] out: [INFO] 
+19:30:44.261 [INFO]  [Measuring] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:30:44.261 [INFO]  [Measuring] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:30:44.261 [INFO]  [Measuring] out: [INFO]   from pom.xml
+19:30:44.261 [INFO]  [Measuring] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:30:44.527 [INFO]  [Measuring] out: [INFO] 
+19:30:44.527 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:prepare-agent (default-cli) @ java-ee-stateless-bean ---
+19:30:44.723 [INFO]  [Measuring] out: [INFO] argLine set to -javaagent:/Users/amishra/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/Users/amishra/Developer/demo-java-ee-stateless-bean/target/jacoco.exec
+19:30:44.724 [INFO]  [Measuring] out: [INFO] 
+19:30:44.724 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:30:44.842 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:30:44.844 [INFO]  [Measuring] out: [INFO] 
+19:30:44.844 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:30:44.971 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+19:30:44.972 [INFO]  [Measuring] out: [INFO] 
+19:30:44.972 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:30:44.974 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:30:44.975 [INFO]  [Measuring] out: [INFO] 
+19:30:44.975 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:30:44.982 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+19:30:44.983 [INFO]  [Measuring] out: [INFO] 
+19:30:44.983 [INFO]  [Measuring] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:30:45.088 [INFO]  [Measuring] out: [INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+19:30:45.201 [INFO]  [Measuring] out: [INFO] 
+19:30:45.201 [INFO]  [Measuring] out: [INFO] -------------------------------------------------------
+19:30:45.201 [INFO]  [Measuring] out: [INFO]  T E S T S
+19:30:45.201 [INFO]  [Measuring] out: [INFO] -------------------------------------------------------
+19:30:45.925 [INFO]  [Measuring] out: [INFO] Running com.diffblue.demo.AdderImplDiffblueTest
+19:30:46.000 [INFO]  [Measuring] out: [INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s -- in com.diffblue.demo.AdderImplDiffblueTest
+19:30:46.000 [INFO]  [Measuring] out: [INFO] Running com.diffblue.demo.CalculatorDiffblueTest
+19:30:46.326 [INFO]  [Measuring] err: OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+19:30:46.858 [INFO]  [Measuring] out: [INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.862 s -- in com.diffblue.demo.CalculatorDiffblueTest
+19:30:46.908 [INFO]  [Measuring] out: [INFO] 
+19:30:46.908 [INFO]  [Measuring] out: [INFO] Results:
+19:30:46.908 [INFO]  [Measuring] out: [INFO] 
+19:30:46.908 [INFO]  [Measuring] out: [INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+19:30:46.908 [INFO]  [Measuring] out: [INFO] 
+19:30:46.924 [INFO]  [Measuring] out: [INFO] 
+19:30:46.924 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:report (default-cli) @ java-ee-stateless-bean ---
+19:30:46.926 [INFO]  [Measuring] out: [INFO] Loading execution data file /Users/amishra/Developer/demo-java-ee-stateless-bean/target/jacoco.exec
+19:30:46.980 [INFO]  [Measuring] out: [INFO] Analyzed bundle 'java-ee-stateless-bean' with 3 classes
+19:30:47.069 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+19:30:47.069 [INFO]  [Measuring] out: [INFO] BUILD SUCCESS
+19:30:47.069 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+19:30:47.069 [INFO]  [Measuring] out: [INFO] Total time:  2.909 s
+19:30:47.070 [INFO]  [Measuring] out: [INFO] Finished at: 2025-03-18T19:30:47Z
+19:30:47.070 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+19:30:47.154 [INFO]  [Measuring] JaCoCo report file created in /Users/amishra/Developer/demo-java-ee-stateless-bean/.diffblue/reports/diffblue-tests-jacoco-report.xml
+19:30:47.213 [INFO]  [Measuring] Calculating coverage from manual tests.
+19:30:47.220 [INFO]  [Measuring] Using default build rules as no custom rules found in any of [/Users/amishra/Developer/demo-java-ee-stateless-bean]
+19:30:47.221 [INFO]  [Measuring] Attempting to invoke mvnw in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:47.228 [INFO]  [Measuring] Attempting to invoke /opt/homebrew/bin/mvn in working directory: /Users/amishra/Developer/demo-java-ee-stateless-bean
+19:30:47.236 [INFO]  [Measuring] Started "/opt/homebrew/bin/mvn -Dmaven.ext.class.path=/usr/local/bin/diffblue/cover-buildsystem-maven-spy-jar-with-dependencies.jar -Dcom.diffblue.cover.skipTests=true --batch-mode --projects=com.diffblue.demo:java-ee-stateless-bean org.jacoco:jacoco-maven-plugin:0.8.11:prepare-agent -Djacoco.skip=false test -DfailIfNoTests=false -Dsurefire.failIfNoSpecifiedTests=false -Dmaven.test.failure.ignore=True -Dtest=!*DiffblueTest,**/Test*.java,**/*Test.java,**/*Tests.java,**/*TestCase.java org.jacoco:jacoco-maven-plugin:0.8.11:report -Djacoco.skip=false"
+19:30:48.175 [INFO]  [Measuring] out: [INFO] Scanning for projects...
+19:30:48.270 [INFO]  [Measuring] out: [INFO] 
+19:30:48.270 [INFO]  [Measuring] out: [INFO] --------------< com.diffblue.demo:java-ee-stateless-bean >--------------
+19:30:48.270 [INFO]  [Measuring] out: [INFO] Building java-ee-stateless-bean 1.0-SNAPSHOT
+19:30:48.270 [INFO]  [Measuring] out: [INFO]   from pom.xml
+19:30:48.271 [INFO]  [Measuring] out: [INFO] --------------------------------[ jar ]---------------------------------
+19:30:48.551 [INFO]  [Measuring] out: [INFO] 
+19:30:48.551 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:prepare-agent (default-cli) @ java-ee-stateless-bean ---
+19:30:48.759 [INFO]  [Measuring] out: [INFO] argLine set to -javaagent:/Users/amishra/.m2/repository/org/jacoco/org.jacoco.agent/0.8.11/org.jacoco.agent-0.8.11-runtime.jar=destfile=/Users/amishra/Developer/demo-java-ee-stateless-bean/target/jacoco.exec
+19:30:48.761 [INFO]  [Measuring] out: [INFO] 
+19:30:48.761 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:resources (default-resources) @ java-ee-stateless-bean ---
+19:30:48.843 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/main/resources
+19:30:48.845 [INFO]  [Measuring] out: [INFO] 
+19:30:48.845 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:compile (default-compile) @ java-ee-stateless-bean ---
+19:30:48.981 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+19:30:48.982 [INFO]  [Measuring] out: [INFO] 
+19:30:48.982 [INFO]  [Measuring] out: [INFO] --- resources:3.3.1:testResources (default-testResources) @ java-ee-stateless-bean ---
+19:30:48.983 [INFO]  [Measuring] out: [INFO] skip non existing resourceDirectory /Users/amishra/Developer/demo-java-ee-stateless-bean/src/test/resources
+19:30:48.985 [INFO]  [Measuring] out: [INFO] 
+19:30:48.985 [INFO]  [Measuring] out: [INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ java-ee-stateless-bean ---
+19:30:48.993 [INFO]  [Measuring] out: [INFO] Nothing to compile - all classes are up to date.
+19:30:48.995 [INFO]  [Measuring] out: [INFO] 
+19:30:48.995 [INFO]  [Measuring] out: [INFO] --- surefire:3.3.0:test (default-test) @ java-ee-stateless-bean ---
+19:30:49.154 [INFO]  [Measuring] out: [INFO] 
+19:30:49.154 [INFO]  [Measuring] out: [INFO] --- jacoco:0.8.11:report (default-cli) @ java-ee-stateless-bean ---
+19:30:49.157 [INFO]  [Measuring] out: [INFO] Loading execution data file /Users/amishra/Developer/demo-java-ee-stateless-bean/target/jacoco.exec
+19:30:49.213 [INFO]  [Measuring] out: [INFO] Analyzed bundle 'java-ee-stateless-bean' with 3 classes
+19:30:49.268 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+19:30:49.268 [INFO]  [Measuring] out: [INFO] BUILD SUCCESS
+19:30:49.268 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+19:30:49.269 [INFO]  [Measuring] out: [INFO] Total time:  1.105 s
+19:30:49.269 [INFO]  [Measuring] out: [INFO] Finished at: 2025-03-18T19:30:49Z
+19:30:49.269 [INFO]  [Measuring] out: [INFO] ------------------------------------------------------------------------
+19:30:49.320 [INFO]  [Measuring] JaCoCo report file created in /Users/amishra/Developer/demo-java-ee-stateless-bean/.diffblue/reports/manual-tests-jacoco-report.xml
+19:30:49.338 [INFO]  [Measuring] 
+19:30:49.344 [INFO]  [Measuring] Diffblue tests cover 4 of 9 lines to cover (44.4%)
+19:30:49.349 [INFO]  [Measuring] Manual tests cover 0 of 9 lines to cover (0.0%)
+19:30:49.503 [INFO]  [Reporting] Writing JSON report to /Users/amishra/Developer/demo-java-ee-stateless-bean/.diffblue/reports/report.json
+19:30:49.648 [INFO]  [Reporting] 
+19:30:49.649 [INFO]  [Reporting] Log file: /Users/amishra/Developer/demo-java-ee-stateless-bean/.diffblue/log/user-20250318T193003.log
+19:30:49.649 [INFO]  [Reporting] Finished in 38s
