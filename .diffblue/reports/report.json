@@ -4,18 +4,18 @@
   },
   "run" : {
     "version" : "2025.02.02-08b2a5a-licensed",
-    "creationTimestamp" : "2025-03-18T19:24:29.486054Z",
+    "creationTimestamp" : "2025-03-18T19:38:38.893191Z",
     "command" : "dcover create --keep-partial-tests --coverage-reports",
-    "totalTime" : 35.032,
-    "environmentDetectionTime" : 0.459,
-    "indexingTime" : 0.207,
-    "entryPointsTime" : 0.449,
-    "generationTime" : 12.004,
-    "timeToFirstTest" : 20.871,
-    "timeToLastTest" : 24.049,
-    "indexQueryTime" : 3.1990000000000003,
-    "verificationTime" : 1.917,
-    "validationTime" : 5.555
+    "totalTime" : 35.368,
+    "environmentDetectionTime" : 0.477,
+    "indexingTime" : 0.217,
+    "entryPointsTime" : 0.467,
+    "generationTime" : 12.453,
+    "timeToFirstTest" : 18.594,
+    "timeToLastTest" : 24.405,
+    "indexQueryTime" : 3.194,
+    "verificationTime" : 1.874,
+    "validationTime" : 5.697
   },
   "codes" : {
     "R000" : "Success",
@@ -34,7 +34,7 @@
     "completeTestCount" : 4,
     "incompleteTestCount" : 3,
     "skeletonTestCount" : 0,
-    "totalPhysicalLineCount" : 27,
+    "totalPhysicalLineCount" : 26,
     "perMethodTestability" : {
       "T000" : 2,
       "T005" : 3,
@@ -172,7 +172,7 @@
         "R013" : 1
       },
       "lineNumbers" : [
-        10
+        9
       ]
     }
   }
