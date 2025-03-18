@@ -4,18 +4,18 @@
   },
   "run" : {
     "version" : "2025.02.02-08b2a5a-licensed",
-    "creationTimestamp" : "2025-03-18T19:24:29.486054Z",
+    "creationTimestamp" : "2025-03-18T19:41:42.735651Z",
     "command" : "dcover create --keep-partial-tests --coverage-reports",
-    "totalTime" : 35.032,
-    "environmentDetectionTime" : 0.459,
-    "indexingTime" : 0.207,
-    "entryPointsTime" : 0.449,
-    "generationTime" : 12.004,
-    "timeToFirstTest" : 20.871,
-    "timeToLastTest" : 24.049,
-    "indexQueryTime" : 3.1990000000000003,
-    "verificationTime" : 1.917,
-    "validationTime" : 5.555
+    "totalTime" : 35.324,
+    "environmentDetectionTime" : 0.445,
+    "indexingTime" : 0.197,
+    "entryPointsTime" : 0.434,
+    "generationTime" : 11.971,
+    "timeToFirstTest" : 19.056,
+    "timeToLastTest" : 24.216,
+    "indexQueryTime" : 3.173,
+    "verificationTime" : 1.892,
+    "validationTime" : 5.766
   },
   "codes" : {
     "R000" : "Success",
@@ -34,7 +34,7 @@
     "completeTestCount" : 4,
     "incompleteTestCount" : 3,
     "skeletonTestCount" : 0,
-    "totalPhysicalLineCount" : 27,
+    "totalPhysicalLineCount" : 26,
     "perMethodTestability" : {
       "T000" : 2,
       "T005" : 3,
@@ -115,7 +115,7 @@
         "R002" : 1
       },
       "lineNumbers" : [
-        6
+        5
       ]
     },
     "com.diffblue.demo.AdderImpl.add:(II)I" : {
@@ -127,7 +127,7 @@
         "R000" : 4
       },
       "lineNumbers" : [
-        8
+        7
       ]
     },
     "com.diffblue.demo.App.<init>:()V" : {
